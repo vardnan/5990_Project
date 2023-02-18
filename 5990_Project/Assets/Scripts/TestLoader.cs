@@ -56,7 +56,7 @@ public class TestLoader : MonoBehaviour
         var myLoadedGameObject = assetLoaderContext.RootGameObject;
         myLoadedGameObject.SetActive(true);
         myLoadedGameObject.AddComponent<Rigidbody>();
-        myLoadedGameObject.AddComponent<BoxCollider>();
+        myLoadedGameObject.AddComponent<MeshCollider>();
         myLoadedGameObject.AddComponent(typeof(UnityEngine.XR.Interaction.Toolkit.XRGrabInteractable));
         myLoadedGameObject.transform.position = new Vector3(0, 2, 0);
 
