@@ -55,10 +55,12 @@ public class TestLoader : MonoBehaviour
         // You can make the GameObject visible again at this step if you prefer to.
         var myLoadedGameObject = assetLoaderContext.RootGameObject;
         myLoadedGameObject.SetActive(true);
-        myLoadedGameObject.AddComponent<Rigidbody>();
-        myLoadedGameObject.AddComponent<MeshCollider>();
-        myLoadedGameObject.AddComponent(typeof(UnityEngine.XR.Interaction.Toolkit.XRGrabInteractable));
-        myLoadedGameObject.transform.position = new Vector3(0, 2, 0);
+        myLoadedGameObject.transform.GetChild(0).gameObject.AddComponent<Rigidbody>();
+        myLoadedGameObject.transform.GetChild(0).gameObject.AddComponent<MeshRenderer>();
+        myLoadedGameObject.transform.GetChild(0).gameObject.AddComponent<MeshCollider>();
+        myLoadedGameObject.transform.GetChild(0).gameObject.GetComponent<MeshCollider>().convex = true;
+        myLoadedGameObject.transform.GetChild(0).gameObject.AddComponent(typeof(UnityEngine.XR.Interaction.Toolkit.XRGrabInteractable));
+        myLoadedGameObject.transform.GetChild(0).gameObject.transform.position = new Vector3(0, 2, 0);
 
     }
 }

@@ -54,6 +54,7 @@
      <Compile Include="Assets\TriLib\TriLibSamples\AvatarLoader\Scripts\AvatarLoader.cs" />
      <Compile Include="Assets\_Course Library\Scripts\Controls\XRSlider.cs" />
      <Compile Include="Assets\_Course Library\Scripts\Testing\Notes.cs" />
+     <Compile Include="Assets\_Course Library\Scripts\Actions\SwitchMaterial.cs" />
      <Compile Include="Assets\TriLib\TriLibCore\Scripts\Mappers\ZipFileExternalDataMapper.cs" />
      <Compile Include="Assets\TriLib\TriLibCore\Scripts\Misc\RuntimeInitialization.cs" />
      <Compile Include="Assets\_Course Library\Scripts\Conditions\OnPull.cs" />
@@ -121,6 +122,7 @@
      <Compile Include="Assets\_Course Library\Scripts\Actions\SetVolume.cs" />
      <Compile Include="Assets\TriLib\TriLibStandaloneFileBrowser\StandaloneFileBrowser\TriLib\IOAssetLoader.cs" />
      <Compile Include="Assets\TriLib\TriLibUniversalRP\Scripts\Mappers\UniversalRPMaterialMapper.cs" />
+     <Compile Include="Assets\Scripts\ScaleModel.cs" />
      <Compile Include="Assets\_Course Library\Scripts\Actions\LoadScene.cs" />
      <Compile Include="Assets\_Course Library\Scripts\Conditions\OnButtonPress.cs" />
      <Compile Include="Assets\TriLib\TriLibStandaloneFileBrowser\StandaloneFileBrowser\ItemWithStream.cs" />
@@ -174,6 +176,7 @@
      <Compile Include="Assets\_Course Library\Scripts\Conditions\OnVelocity.cs" />
      <Compile Include="Assets\TriLib\TriLibSamples\AssetViewer\Scripts\AssetViewer.cs" />
      <Compile Include="Assets\_Course Library\Scripts\Actions\DestroyObject.cs" />
+     <Compile Include="Assets\Scripts\SwitchScene.cs" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
      <None Include="Assets\TriLib\TriLibCore\Resources\Shaders\Utility\InvertChannels.shader" />

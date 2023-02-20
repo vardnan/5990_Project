@@ -12,80 +12,1976 @@ AssetImportWorker0
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-54616
+55065
 Successfully changed project path to: /Users/vardnan/Documents/Development/5990_Project/5990_Project
 /Users/vardnan/Documents/Development/5990_Project/5990_Project
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 86.71 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 78.61 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.1f1 (77a89f25062f)
 [Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2020.3.1f1/Unity.app/Contents/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path /Users/vardnan/Documents/Development/5990_Project/5990_Project/Assets
 GfxDevice: creating device client; threaded=0
-2023-02-18 14:11:32.503 Unity[84807:7307113] (null) preferred device: Apple M1 (high power)
-2023-02-18 14:11:32.503 Unity[84807:7307113] Metal devices available: 1
-2023-02-18 14:11:32.503 Unity[84807:7307113] 0: Apple M1 (high power)
-2023-02-18 14:11:32.504 Unity[84807:7307113] Using device Apple M1 (high power)
+2023-02-20 15:07:08.307 Unity[5501:8068502] (null) preferred device: Apple M1 (high power)
+2023-02-20 15:07:08.307 Unity[5501:8068502] Metal devices available: 1
+2023-02-20 15:07:08.307 Unity[5501:8068502] 0: Apple M1 (high power)
+2023-02-20 15:07:08.307 Unity[5501:8068502] Using device Apple M1 (high power)
 Initializing Metal device caps: Apple M1
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
 Initialize mono
 Mono path[0] = '/Applications/Unity/Hub/Editor/2020.3.1f1/Unity.app/Contents/Managed'
 Mono path[1] = '/Applications/Unity/Hub/Editor/2020.3.1f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = '/Applications/Unity/Hub/Editor/2020.3.1f1/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56807
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56501
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /Applications/Unity/Hub/Editor/2020.3.1f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: /Applications/Unity/Hub/Editor/2020.3.1f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
-Registered in 0.000940 seconds.
+Registered in 0.002961 seconds.
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 65.11 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 60.67 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  4.267 seconds
+- Completed reload, in  3.645 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.004607 seconds.
+Registered in 0.011384 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 64.52 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 59.94 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.745 seconds
+- Completed reload, in  2.617 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
 Launching external process: /Applications/Unity/Hub/Editor/2020.3.1f1/Unity.app/Contents/Tools/UnityShaderCompiler
-Launched and connected shader compiler UnityShaderCompiler after 0.20 seconds
-Refreshing native plugins compatible for Editor in 1.22 ms, found 1 plugins.
+Launched and connected shader compiler UnityShaderCompiler after 0.03 seconds
+Refreshing native plugins compatible for Editor in 0.84 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3248 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 229.2 MB.
-System memory in use after: 229.4 MB.
+Unloading 3250 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 229.6 MB.
+System memory in use after: 229.8 MB.
 
-Unloading 61 unused Assets to reduce memory usage. Loaded Objects now: 3662.
-Total: 10.788375 ms (FindLiveObjects: 1.466042 ms CreateObjectMapping: 0.494167 ms MarkObjects: 7.052250 ms  DeleteObjects: 1.716542 ms)
+Unloading 61 unused Assets to reduce memory usage. Loaded Objects now: 3664.
+Total: 13.094375 ms (FindLiveObjects: 0.428334 ms CreateObjectMapping: 0.100208 ms MarkObjects: 11.723500 ms  DeleteObjects: 0.822458 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/Scripts/TestLoader.cs
-  artifactKey: Guid(2d8d4c20f969f4e07b6b0c859c3c6ee0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/TestLoader.cs using Guid(2d8d4c20f969f4e07b6b0c859c3c6ee0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0147535b4cb4ba795e60e4075d24750a') in 0.221895 seconds
-  Import took 0.229254 seconds .
+  path: Assets/Imports
+  artifactKey: Guid(e1d3500f78c0242869933deee7613ec6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports using Guid(e1d3500f78c0242869933deee7613ec6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be3e70b479e07889857366f9c9acbdd9') in 0.019231 seconds
+  Import took 0.025911 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.892808 seconds.
+  path: Assets/Imports/Rectangle 1.png
+  artifactKey: Guid(d5b8006e1f49a4386be880e48ba8bf52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/Rectangle 1.png using Guid(d5b8006e1f49a4386be880e48ba8bf52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a259c53eae9fe39723dfea4febf41bc8') in 0.620139 seconds
+  Import took 0.626956 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 54.423755 seconds.
+  path: Assets/Imports/New Material.mat
+  artifactKey: Guid(2b894e9a6ba62491298afd9f4dd69bf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/New Material.mat using Guid(2b894e9a6ba62491298afd9f4dd69bf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3631e098a17dd58cd6108cb40b6c4e0') in 1.233838 seconds
+  Import took 1.246861 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 351.688713 seconds.
+  path: Assets/Scripts/ChangeScene.cs
+  artifactKey: Guid(355c22472ce49451a9bca571d238d1d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ChangeScene.cs using Guid(355c22472ce49451a9bca571d238d1d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '649b79ae34c973082d0708ab17dcdc4f') in 0.204296 seconds
+  Import took 0.219007 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.006421 seconds.
+Registered in 0.007454 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.27 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+CreateSerializedAsset is not supported while importing out-of-process
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+TriLibCore.TriLibSettings:GetTriLibPreferences () (at Assets/TriLib/TriLibCore/Scripts/Misc/TriLibSettings.cs:40)
+TriLibCore.TriLibSettings:GetBool (string) (at Assets/TriLib/TriLibCore/Scripts/Misc/TriLibSettings.cs:64)
+TriLibCore.Editor.CheckMappers:Initialize () (at Assets/TriLib/TriLibCore/Editor/Scripts/CheckMappers.cs:18)
+
+[Assets/TriLib/TriLibCore/Scripts/Misc/TriLibSettings.cs line 40]
+
+UnityException: Creating asset at path Assets/TriLib/TriLibCore/Resources/TriLibSettings.asset failed.
+  at (wrapper managed-to-native) UnityEditor.AssetDatabase.CreateAsset(UnityEngine.Object,string)
+  at TriLibCore.TriLibSettings.GetTriLibPreferences () [0x00041] in /Users/vardnan/Documents/Development/5990_Project/5990_Project/Assets/TriLib/TriLibCore/Scripts/Misc/TriLibSettings.cs:40 
+  at TriLibCore.TriLibSettings.GetBool (System.String key) [0x00001] in /Users/vardnan/Documents/Development/5990_Project/5990_Project/Assets/TriLib/TriLibCore/Scripts/Misc/TriLibSettings.cs:64 
+  at TriLibCore.Editor.CheckMappers.Initialize () [0x00014] in /Users/vardnan/Documents/Development/5990_Project/5990_Project/Assets/TriLib/TriLibCore/Editor/Scripts/CheckMappers.cs:18 
+
+(Filename: Assets/TriLib/TriLibCore/Scripts/Misc/TriLibSettings.cs Line: 40)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  3.074 seconds
+Platform modules already initialized, skipping
+Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524294) extendedPlatform(0)
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.03 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3098 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 236.2 MB.
+System memory in use after: 236.3 MB.
+
+Unloading 54 unused Assets to reduce memory usage. Loaded Objects now: 3749.
+Total: 3.072834 ms (FindLiveObjects: 0.482625 ms CreateObjectMapping: 0.111875 ms MarkObjects: 2.336084 ms  DeleteObjects: 0.139458 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007200 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.98 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+CreateSerializedAsset is not supported while importing out-of-process
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+TriLibCore.TriLibSettings:GetTriLibPreferences () (at Assets/TriLib/TriLibCore/Scripts/Misc/TriLibSettings.cs:40)
+TriLibCore.TriLibSettings:GetBool (string) (at Assets/TriLib/TriLibCore/Scripts/Misc/TriLibSettings.cs:64)
+TriLibCore.Editor.CheckMappers:Initialize () (at Assets/TriLib/TriLibCore/Editor/Scripts/CheckMappers.cs:18)
+
+[Assets/TriLib/TriLibCore/Scripts/Misc/TriLibSettings.cs line 40]
+
+UnityException: Creating asset at path Assets/TriLib/TriLibCore/Resources/TriLibSettings.asset failed.
+  at (wrapper managed-to-native) UnityEditor.AssetDatabase.CreateAsset(UnityEngine.Object,string)
+  at TriLibCore.TriLibSettings.GetTriLibPreferences () [0x00041] in /Users/vardnan/Documents/Development/5990_Project/5990_Project/Assets/TriLib/TriLibCore/Scripts/Misc/TriLibSettings.cs:40 
+  at TriLibCore.TriLibSettings.GetBool (System.String key) [0x00001] in /Users/vardnan/Documents/Development/5990_Project/5990_Project/Assets/TriLib/TriLibCore/Scripts/Misc/TriLibSettings.cs:64 
+  at TriLibCore.Editor.CheckMappers.Initialize () [0x00014] in /Users/vardnan/Documents/Development/5990_Project/5990_Project/Assets/TriLib/TriLibCore/Editor/Scripts/CheckMappers.cs:18 
+
+(Filename: Assets/TriLib/TriLibCore/Scripts/Misc/TriLibSettings.cs Line: 40)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  2.951 seconds
+Platform modules already initialized, skipping
+Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524294) extendedPlatform(0)
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.87 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3098 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 236.5 MB.
+System memory in use after: 236.7 MB.
+
+Unloading 54 unused Assets to reduce memory usage. Loaded Objects now: 3754.
+Total: 1.964625 ms (FindLiveObjects: 0.246041 ms CreateObjectMapping: 0.070792 ms MarkObjects: 1.537125 ms  DeleteObjects: 0.109458 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Import Request.
+  Time since last request: 275.070252 seconds.
+  path: Assets/Scripts/ChangeScene.cs
+  artifactKey: Guid(355c22472ce49451a9bca571d238d1d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ChangeScene.cs using Guid(355c22472ce49451a9bca571d238d1d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89d44c620acc26d70050247be65aada4') in 0.012096 seconds
+  Import took 0.016807 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 20.763230 seconds.
+  path: Assets/Scenes/Kitchen.unity
+  artifactKey: Guid(42202b5d87da8472b9e01d2c5852f0e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Kitchen.unity using Guid(42202b5d87da8472b9e01d2c5852f0e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3a93b0b3e610252c879269729a330b7') in 0.021578 seconds
+  Import took 0.027002 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 37.347540 seconds.
+  path: Assets/Scenes/Create_with_VR_Starter_Scene.unity
+  artifactKey: Guid(afdcb113ffd5a4353ad88f0dd03743af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Create_with_VR_Starter_Scene.unity using Guid(afdcb113ffd5a4353ad88f0dd03743af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e637b76dd08e3e283001cf343b9cbea') in 0.010317 seconds
+  Import took 0.040945 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.079999 seconds.
+  path: Assets/Scenes/Home.unity
+  artifactKey: Guid(afdcb113ffd5a4353ad88f0dd03743af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Home.unity using Guid(afdcb113ffd5a4353ad88f0dd03743af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26f2cdc6fb3179ca729553817321397b') in 0.002061 seconds
+  Import took 0.009085 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006362 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.29 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+CreateSerializedAsset is not supported while importing out-of-process
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+TriLibCore.TriLibSettings:GetTriLibPreferences () (at Assets/TriLib/TriLibCore/Scripts/Misc/TriLibSettings.cs:40)
+TriLibCore.TriLibSettings:GetBool (string) (at Assets/TriLib/TriLibCore/Scripts/Misc/TriLibSettings.cs:64)
+TriLibCore.Editor.CheckMappers:Initialize () (at Assets/TriLib/TriLibCore/Editor/Scripts/CheckMappers.cs:18)
+
+[Assets/TriLib/TriLibCore/Scripts/Misc/TriLibSettings.cs line 40]
+
+UnityException: Creating asset at path Assets/TriLib/TriLibCore/Resources/TriLibSettings.asset failed.
+  at (wrapper managed-to-native) UnityEditor.AssetDatabase.CreateAsset(UnityEngine.Object,string)
+  at TriLibCore.TriLibSettings.GetTriLibPreferences () [0x00041] in /Users/vardnan/Documents/Development/5990_Project/5990_Project/Assets/TriLib/TriLibCore/Scripts/Misc/TriLibSettings.cs:40 
+  at TriLibCore.TriLibSettings.GetBool (System.String key) [0x00001] in /Users/vardnan/Documents/Development/5990_Project/5990_Project/Assets/TriLib/TriLibCore/Scripts/Misc/TriLibSettings.cs:64 
+  at TriLibCore.Editor.CheckMappers.Initialize () [0x00014] in /Users/vardnan/Documents/Development/5990_Project/5990_Project/Assets/TriLib/TriLibCore/Editor/Scripts/CheckMappers.cs:18 
+
+(Filename: Assets/TriLib/TriLibCore/Scripts/Misc/TriLibSettings.cs Line: 40)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  2.946 seconds
+Platform modules already initialized, skipping
+Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524294) extendedPlatform(0)
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.16 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3098 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 236.9 MB.
+System memory in use after: 237.0 MB.
+
+Unloading 54 unused Assets to reduce memory usage. Loaded Objects now: 3759.
+Total: 2.684167 ms (FindLiveObjects: 0.413958 ms CreateObjectMapping: 0.089209 ms MarkObjects: 2.027458 ms  DeleteObjects: 0.151125 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Import Request.
+  Time since last request: 132.983476 seconds.
+  path: Assets/Scripts/ChangeScene.cs
+  artifactKey: Guid(355c22472ce49451a9bca571d238d1d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ChangeScene.cs using Guid(355c22472ce49451a9bca571d238d1d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a35ea4c509c16c4be182c6ab01b6544') in 0.011800 seconds
+  Import took 0.016969 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.014828 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.93 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+CreateSerializedAsset is not supported while importing out-of-process
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+TriLibCore.TriLibSettings:GetTriLibPreferences () (at Assets/TriLib/TriLibCore/Scripts/Misc/TriLibSettings.cs:40)
+TriLibCore.TriLibSettings:GetBool (string) (at Assets/TriLib/TriLibCore/Scripts/Misc/TriLibSettings.cs:64)
+TriLibCore.Editor.CheckMappers:Initialize () (at Assets/TriLib/TriLibCore/Editor/Scripts/CheckMappers.cs:18)
+
+[Assets/TriLib/TriLibCore/Scripts/Misc/TriLibSettings.cs line 40]
+
+UnityException: Creating asset at path Assets/TriLib/TriLibCore/Resources/TriLibSettings.asset failed.
+  at (wrapper managed-to-native) UnityEditor.AssetDatabase.CreateAsset(UnityEngine.Object,string)
+  at TriLibCore.TriLibSettings.GetTriLibPreferences () [0x00041] in /Users/vardnan/Documents/Development/5990_Project/5990_Project/Assets/TriLib/TriLibCore/Scripts/Misc/TriLibSettings.cs:40 
+  at TriLibCore.TriLibSettings.GetBool (System.String key) [0x00001] in /Users/vardnan/Documents/Development/5990_Project/5990_Project/Assets/TriLib/TriLibCore/Scripts/Misc/TriLibSettings.cs:64 
+  at TriLibCore.Editor.CheckMappers.Initialize () [0x00014] in /Users/vardnan/Documents/Development/5990_Project/5990_Project/Assets/TriLib/TriLibCore/Editor/Scripts/CheckMappers.cs:18 
+
+(Filename: Assets/TriLib/TriLibCore/Scripts/Misc/TriLibSettings.cs Line: 40)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  2.863 seconds
+Platform modules already initialized, skipping
+Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524294) extendedPlatform(0)
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.03 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3098 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 237.1 MB.
+System memory in use after: 237.3 MB.
+
+Unloading 54 unused Assets to reduce memory usage. Loaded Objects now: 3764.
+Total: 2.041708 ms (FindLiveObjects: 0.281750 ms CreateObjectMapping: 0.075292 ms MarkObjects: 1.560833 ms  DeleteObjects: 0.122750 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007243 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.03 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+CreateSerializedAsset is not supported while importing out-of-process
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+TriLibCore.TriLibSettings:GetTriLibPreferences () (at Assets/TriLib/TriLibCore/Scripts/Misc/TriLibSettings.cs:40)
+TriLibCore.TriLibSettings:GetBool (string) (at Assets/TriLib/TriLibCore/Scripts/Misc/TriLibSettings.cs:64)
+TriLibCore.Editor.CheckMappers:Initialize () (at Assets/TriLib/TriLibCore/Editor/Scripts/CheckMappers.cs:18)
+
+[Assets/TriLib/TriLibCore/Scripts/Misc/TriLibSettings.cs line 40]
+
+UnityException: Creating asset at path Assets/TriLib/TriLibCore/Resources/TriLibSettings.asset failed.
+  at (wrapper managed-to-native) UnityEditor.AssetDatabase.CreateAsset(UnityEngine.Object,string)
+  at TriLibCore.TriLibSettings.GetTriLibPreferences () [0x00041] in /Users/vardnan/Documents/Development/5990_Project/5990_Project/Assets/TriLib/TriLibCore/Scripts/Misc/TriLibSettings.cs:40 
+  at TriLibCore.TriLibSettings.GetBool (System.String key) [0x00001] in /Users/vardnan/Documents/Development/5990_Project/5990_Project/Assets/TriLib/TriLibCore/Scripts/Misc/TriLibSettings.cs:64 
+  at TriLibCore.Editor.CheckMappers.Initialize () [0x00014] in /Users/vardnan/Documents/Development/5990_Project/5990_Project/Assets/TriLib/TriLibCore/Editor/Scripts/CheckMappers.cs:18 
+
+(Filename: Assets/TriLib/TriLibCore/Scripts/Misc/TriLibSettings.cs Line: 40)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  3.006 seconds
+Platform modules already initialized, skipping
+Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524294) extendedPlatform(0)
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.91 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3098 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 237.4 MB.
+System memory in use after: 237.6 MB.
+
+Unloading 54 unused Assets to reduce memory usage. Loaded Objects now: 3769.
+Total: 2.145583 ms (FindLiveObjects: 0.335166 ms CreateObjectMapping: 0.080875 ms MarkObjects: 1.603959 ms  DeleteObjects: 0.124125 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Import Request.
+  Time since last request: 1123.430589 seconds.
+  path: Assets/Scripts/ChangeScene.cs
+  artifactKey: Guid(355c22472ce49451a9bca571d238d1d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ChangeScene.cs using Guid(355c22472ce49451a9bca571d238d1d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c9f25afcc55099da3ce60bd7172723b') in 0.008864 seconds
+  Import took 0.013379 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.011255 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.01 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+CreateSerializedAsset is not supported while importing out-of-process
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+TriLibCore.TriLibSettings:GetTriLibPreferences () (at Assets/TriLib/TriLibCore/Scripts/Misc/TriLibSettings.cs:40)
+TriLibCore.TriLibSettings:GetBool (string) (at Assets/TriLib/TriLibCore/Scripts/Misc/TriLibSettings.cs:64)
+TriLibCore.Editor.CheckMappers:Initialize () (at Assets/TriLib/TriLibCore/Editor/Scripts/CheckMappers.cs:18)
+
+[Assets/TriLib/TriLibCore/Scripts/Misc/TriLibSettings.cs line 40]
+
+UnityException: Creating asset at path Assets/TriLib/TriLibCore/Resources/TriLibSettings.asset failed.
+  at (wrapper managed-to-native) UnityEditor.AssetDatabase.CreateAsset(UnityEngine.Object,string)
+  at TriLibCore.TriLibSettings.GetTriLibPreferences () [0x00041] in /Users/vardnan/Documents/Development/5990_Project/5990_Project/Assets/TriLib/TriLibCore/Scripts/Misc/TriLibSettings.cs:40 
+  at TriLibCore.TriLibSettings.GetBool (System.String key) [0x00001] in /Users/vardnan/Documents/Development/5990_Project/5990_Project/Assets/TriLib/TriLibCore/Scripts/Misc/TriLibSettings.cs:64 
+  at TriLibCore.Editor.CheckMappers.Initialize () [0x00014] in /Users/vardnan/Documents/Development/5990_Project/5990_Project/Assets/TriLib/TriLibCore/Editor/Scripts/CheckMappers.cs:18 
+
+(Filename: Assets/TriLib/TriLibCore/Scripts/Misc/TriLibSettings.cs Line: 40)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  2.925 seconds
+Platform modules already initialized, skipping
+Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524294) extendedPlatform(0)
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.86 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3098 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 237.7 MB.
+System memory in use after: 237.9 MB.
+
+Unloading 54 unused Assets to reduce memory usage. Loaded Objects now: 3774.
+Total: 1.955625 ms (FindLiveObjects: 0.279292 ms CreateObjectMapping: 0.071125 ms MarkObjects: 1.490792 ms  DeleteObjects: 0.113209 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Import Request.
+  Time since last request: 158.587343 seconds.
+  path: Assets/Scripts/ChangeScene.cs
+  artifactKey: Guid(355c22472ce49451a9bca571d238d1d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ChangeScene.cs using Guid(355c22472ce49451a9bca571d238d1d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50e5938717e1a1148735dd8a0bc661eb') in 0.011165 seconds
+  Import took 0.015493 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.011079 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.93 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+CreateSerializedAsset is not supported while importing out-of-process
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+TriLibCore.TriLibSettings:GetTriLibPreferences () (at Assets/TriLib/TriLibCore/Scripts/Misc/TriLibSettings.cs:40)
+TriLibCore.TriLibSettings:GetBool (string) (at Assets/TriLib/TriLibCore/Scripts/Misc/TriLibSettings.cs:64)
+TriLibCore.Editor.CheckMappers:Initialize () (at Assets/TriLib/TriLibCore/Editor/Scripts/CheckMappers.cs:18)
+
+[Assets/TriLib/TriLibCore/Scripts/Misc/TriLibSettings.cs line 40]
+
+UnityException: Creating asset at path Assets/TriLib/TriLibCore/Resources/TriLibSettings.asset failed.
+  at (wrapper managed-to-native) UnityEditor.AssetDatabase.CreateAsset(UnityEngine.Object,string)
+  at TriLibCore.TriLibSettings.GetTriLibPreferences () [0x00041] in /Users/vardnan/Documents/Development/5990_Project/5990_Project/Assets/TriLib/TriLibCore/Scripts/Misc/TriLibSettings.cs:40 
+  at TriLibCore.TriLibSettings.GetBool (System.String key) [0x00001] in /Users/vardnan/Documents/Development/5990_Project/5990_Project/Assets/TriLib/TriLibCore/Scripts/Misc/TriLibSettings.cs:64 
+  at TriLibCore.Editor.CheckMappers.Initialize () [0x00014] in /Users/vardnan/Documents/Development/5990_Project/5990_Project/Assets/TriLib/TriLibCore/Editor/Scripts/CheckMappers.cs:18 
+
+(Filename: Assets/TriLib/TriLibCore/Scripts/Misc/TriLibSettings.cs Line: 40)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  2.864 seconds
+Platform modules already initialized, skipping
+Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524294) extendedPlatform(0)
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.90 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3098 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 238.0 MB.
+System memory in use after: 238.1 MB.
+
+Unloading 54 unused Assets to reduce memory usage. Loaded Objects now: 3779.
+Total: 2.172584 ms (FindLiveObjects: 0.369250 ms CreateObjectMapping: 0.078916 ms MarkObjects: 1.596750 ms  DeleteObjects: 0.125792 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007141 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.96 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+CreateSerializedAsset is not supported while importing out-of-process
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+TriLibCore.TriLibSettings:GetTriLibPreferences () (at Assets/TriLib/TriLibCore/Scripts/Misc/TriLibSettings.cs:40)
+TriLibCore.TriLibSettings:GetBool (string) (at Assets/TriLib/TriLibCore/Scripts/Misc/TriLibSettings.cs:64)
+TriLibCore.Editor.CheckMappers:Initialize () (at Assets/TriLib/TriLibCore/Editor/Scripts/CheckMappers.cs:18)
+
+[Assets/TriLib/TriLibCore/Scripts/Misc/TriLibSettings.cs line 40]
+
+UnityException: Creating asset at path Assets/TriLib/TriLibCore/Resources/TriLibSettings.asset failed.
+  at (wrapper managed-to-native) UnityEditor.AssetDatabase.CreateAsset(UnityEngine.Object,string)
+  at TriLibCore.TriLibSettings.GetTriLibPreferences () [0x00041] in /Users/vardnan/Documents/Development/5990_Project/5990_Project/Assets/TriLib/TriLibCore/Scripts/Misc/TriLibSettings.cs:40 
+  at TriLibCore.TriLibSettings.GetBool (System.String key) [0x00001] in /Users/vardnan/Documents/Development/5990_Project/5990_Project/Assets/TriLib/TriLibCore/Scripts/Misc/TriLibSettings.cs:64 
+  at TriLibCore.Editor.CheckMappers.Initialize () [0x00014] in /Users/vardnan/Documents/Development/5990_Project/5990_Project/Assets/TriLib/TriLibCore/Editor/Scripts/CheckMappers.cs:18 
+
+(Filename: Assets/TriLib/TriLibCore/Scripts/Misc/TriLibSettings.cs Line: 40)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  2.876 seconds
+Platform modules already initialized, skipping
+Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524294) extendedPlatform(0)
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.94 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3098 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 238.2 MB.
+System memory in use after: 238.4 MB.
+
+Unloading 54 unused Assets to reduce memory usage. Loaded Objects now: 3784.
+Total: 2.147292 ms (FindLiveObjects: 0.307667 ms CreateObjectMapping: 0.078791 ms MarkObjects: 1.626875 ms  DeleteObjects: 0.131750 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Import Request.
+  Time since last request: 385.860341 seconds.
+  path: Assets/Scripts/ChangeScene.cs
+  artifactKey: Guid(355c22472ce49451a9bca571d238d1d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ChangeScene.cs using Guid(355c22472ce49451a9bca571d238d1d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ba95f51b857ad546625a5975c7ffe70') in 0.009065 seconds
+  Import took 0.013570 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006765 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.10 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+CreateSerializedAsset is not supported while importing out-of-process
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+TriLibCore.TriLibSettings:GetTriLibPreferences () (at Assets/TriLib/TriLibCore/Scripts/Misc/TriLibSettings.cs:40)
+TriLibCore.TriLibSettings:GetBool (string) (at Assets/TriLib/TriLibCore/Scripts/Misc/TriLibSettings.cs:64)
+TriLibCore.Editor.CheckMappers:Initialize () (at Assets/TriLib/TriLibCore/Editor/Scripts/CheckMappers.cs:18)
+
+[Assets/TriLib/TriLibCore/Scripts/Misc/TriLibSettings.cs line 40]
+
+UnityException: Creating asset at path Assets/TriLib/TriLibCore/Resources/TriLibSettings.asset failed.
+  at (wrapper managed-to-native) UnityEditor.AssetDatabase.CreateAsset(UnityEngine.Object,string)
+  at TriLibCore.TriLibSettings.GetTriLibPreferences () [0x00041] in /Users/vardnan/Documents/Development/5990_Project/5990_Project/Assets/TriLib/TriLibCore/Scripts/Misc/TriLibSettings.cs:40 
+  at TriLibCore.TriLibSettings.GetBool (System.String key) [0x00001] in /Users/vardnan/Documents/Development/5990_Project/5990_Project/Assets/TriLib/TriLibCore/Scripts/Misc/TriLibSettings.cs:64 
+  at TriLibCore.Editor.CheckMappers.Initialize () [0x00014] in /Users/vardnan/Documents/Development/5990_Project/5990_Project/Assets/TriLib/TriLibCore/Editor/Scripts/CheckMappers.cs:18 
+
+(Filename: Assets/TriLib/TriLibCore/Scripts/Misc/TriLibSettings.cs Line: 40)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  2.950 seconds
+Platform modules already initialized, skipping
+Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524294) extendedPlatform(0)
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.03 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3098 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 238.5 MB.
+System memory in use after: 238.7 MB.
+
+Unloading 54 unused Assets to reduce memory usage. Loaded Objects now: 3789.
+Total: 2.036917 ms (FindLiveObjects: 0.317750 ms CreateObjectMapping: 0.075500 ms MarkObjects: 1.505875 ms  DeleteObjects: 0.135791 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Import Request.
+  Time since last request: 356.368207 seconds.
+  path: Assets/Scripts/ChangeScene.cs
+  artifactKey: Guid(355c22472ce49451a9bca571d238d1d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ChangeScene.cs using Guid(355c22472ce49451a9bca571d238d1d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'daa1587402208dad401535309116e831') in 0.012226 seconds
+  Import took 0.020928 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002416 seconds.
+  path: Assets/Scripts/ChangeScene.cs
+  artifactKey: Guid(355c22472ce49451a9bca571d238d1d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ChangeScene.cs using Guid(355c22472ce49451a9bca571d238d1d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'daa1587402208dad401535309116e831') in 0.001015 seconds
+  Import took 0.007149 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006810 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.98 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+CreateSerializedAsset is not supported while importing out-of-process
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+TriLibCore.TriLibSettings:GetTriLibPreferences () (at Assets/TriLib/TriLibCore/Scripts/Misc/TriLibSettings.cs:40)
+TriLibCore.TriLibSettings:GetBool (string) (at Assets/TriLib/TriLibCore/Scripts/Misc/TriLibSettings.cs:64)
+TriLibCore.Editor.CheckMappers:Initialize () (at Assets/TriLib/TriLibCore/Editor/Scripts/CheckMappers.cs:18)
+
+[Assets/TriLib/TriLibCore/Scripts/Misc/TriLibSettings.cs line 40]
+
+UnityException: Creating asset at path Assets/TriLib/TriLibCore/Resources/TriLibSettings.asset failed.
+  at (wrapper managed-to-native) UnityEditor.AssetDatabase.CreateAsset(UnityEngine.Object,string)
+  at TriLibCore.TriLibSettings.GetTriLibPreferences () [0x00041] in /Users/vardnan/Documents/Development/5990_Project/5990_Project/Assets/TriLib/TriLibCore/Scripts/Misc/TriLibSettings.cs:40 
+  at TriLibCore.TriLibSettings.GetBool (System.String key) [0x00001] in /Users/vardnan/Documents/Development/5990_Project/5990_Project/Assets/TriLib/TriLibCore/Scripts/Misc/TriLibSettings.cs:64 
+  at TriLibCore.Editor.CheckMappers.Initialize () [0x00014] in /Users/vardnan/Documents/Development/5990_Project/5990_Project/Assets/TriLib/TriLibCore/Editor/Scripts/CheckMappers.cs:18 
+
+(Filename: Assets/TriLib/TriLibCore/Scripts/Misc/TriLibSettings.cs Line: 40)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  2.862 seconds
+Platform modules already initialized, skipping
+Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524294) extendedPlatform(0)
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.90 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3098 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 238.8 MB.
+System memory in use after: 238.9 MB.
+
+Unloading 54 unused Assets to reduce memory usage. Loaded Objects now: 3794.
+Total: 2.063916 ms (FindLiveObjects: 0.303958 ms CreateObjectMapping: 0.077625 ms MarkObjects: 1.553291 ms  DeleteObjects: 0.127416 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Import Request.
+  Time since last request: 95.120362 seconds.
+  path: Assets/Scripts/ChangeScene.cs
+  artifactKey: Guid(355c22472ce49451a9bca571d238d1d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ChangeScene.cs using Guid(355c22472ce49451a9bca571d238d1d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bee5fb9b487a1d826db9b4b74e654034') in 0.016340 seconds
+  Import took 0.020702 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006465 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.98 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+CreateSerializedAsset is not supported while importing out-of-process
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+TriLibCore.TriLibSettings:GetTriLibPreferences () (at Assets/TriLib/TriLibCore/Scripts/Misc/TriLibSettings.cs:40)
+TriLibCore.TriLibSettings:GetBool (string) (at Assets/TriLib/TriLibCore/Scripts/Misc/TriLibSettings.cs:64)
+TriLibCore.Editor.CheckMappers:Initialize () (at Assets/TriLib/TriLibCore/Editor/Scripts/CheckMappers.cs:18)
+
+[Assets/TriLib/TriLibCore/Scripts/Misc/TriLibSettings.cs line 40]
+
+UnityException: Creating asset at path Assets/TriLib/TriLibCore/Resources/TriLibSettings.asset failed.
+  at (wrapper managed-to-native) UnityEditor.AssetDatabase.CreateAsset(UnityEngine.Object,string)
+  at TriLibCore.TriLibSettings.GetTriLibPreferences () [0x00041] in /Users/vardnan/Documents/Development/5990_Project/5990_Project/Assets/TriLib/TriLibCore/Scripts/Misc/TriLibSettings.cs:40 
+  at TriLibCore.TriLibSettings.GetBool (System.String key) [0x00001] in /Users/vardnan/Documents/Development/5990_Project/5990_Project/Assets/TriLib/TriLibCore/Scripts/Misc/TriLibSettings.cs:64 
+  at TriLibCore.Editor.CheckMappers.Initialize () [0x00014] in /Users/vardnan/Documents/Development/5990_Project/5990_Project/Assets/TriLib/TriLibCore/Editor/Scripts/CheckMappers.cs:18 
+
+(Filename: Assets/TriLib/TriLibCore/Scripts/Misc/TriLibSettings.cs Line: 40)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  2.893 seconds
+Platform modules already initialized, skipping
+Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524294) extendedPlatform(0)
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.89 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3098 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 239.0 MB.
+System memory in use after: 239.2 MB.
+
+Unloading 54 unused Assets to reduce memory usage. Loaded Objects now: 3799.
+Total: 2.063125 ms (FindLiveObjects: 0.293917 ms CreateObjectMapping: 0.072875 ms MarkObjects: 1.578166 ms  DeleteObjects: 0.116750 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Import Request.
+  Time since last request: 99.114556 seconds.
+  path: Assets/Scripts/ChangeScene.cs
+  artifactKey: Guid(355c22472ce49451a9bca571d238d1d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ChangeScene.cs using Guid(355c22472ce49451a9bca571d238d1d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '279cae6d13f51f188ee76ad999d25a36') in 0.009897 seconds
+  Import took 0.014669 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.012554 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.93 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+CreateSerializedAsset is not supported while importing out-of-process
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+TriLibCore.TriLibSettings:GetTriLibPreferences () (at Assets/TriLib/TriLibCore/Scripts/Misc/TriLibSettings.cs:40)
+TriLibCore.TriLibSettings:GetBool (string) (at Assets/TriLib/TriLibCore/Scripts/Misc/TriLibSettings.cs:64)
+TriLibCore.Editor.CheckMappers:Initialize () (at Assets/TriLib/TriLibCore/Editor/Scripts/CheckMappers.cs:18)
+
+[Assets/TriLib/TriLibCore/Scripts/Misc/TriLibSettings.cs line 40]
+
+UnityException: Creating asset at path Assets/TriLib/TriLibCore/Resources/TriLibSettings.asset failed.
+  at (wrapper managed-to-native) UnityEditor.AssetDatabase.CreateAsset(UnityEngine.Object,string)
+  at TriLibCore.TriLibSettings.GetTriLibPreferences () [0x00041] in /Users/vardnan/Documents/Development/5990_Project/5990_Project/Assets/TriLib/TriLibCore/Scripts/Misc/TriLibSettings.cs:40 
+  at TriLibCore.TriLibSettings.GetBool (System.String key) [0x00001] in /Users/vardnan/Documents/Development/5990_Project/5990_Project/Assets/TriLib/TriLibCore/Scripts/Misc/TriLibSettings.cs:64 
+  at TriLibCore.Editor.CheckMappers.Initialize () [0x00014] in /Users/vardnan/Documents/Development/5990_Project/5990_Project/Assets/TriLib/TriLibCore/Editor/Scripts/CheckMappers.cs:18 
+
+(Filename: Assets/TriLib/TriLibCore/Scripts/Misc/TriLibSettings.cs Line: 40)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  2.967 seconds
+Platform modules already initialized, skipping
+Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524294) extendedPlatform(0)
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.96 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3098 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 239.3 MB.
+System memory in use after: 239.5 MB.
+
+Unloading 54 unused Assets to reduce memory usage. Loaded Objects now: 3804.
+Total: 2.093625 ms (FindLiveObjects: 0.287708 ms CreateObjectMapping: 0.082958 ms MarkObjects: 1.597000 ms  DeleteObjects: 0.122959 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007111 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.11 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+CreateSerializedAsset is not supported while importing out-of-process
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+TriLibCore.TriLibSettings:GetTriLibPreferences () (at Assets/TriLib/TriLibCore/Scripts/Misc/TriLibSettings.cs:40)
+TriLibCore.TriLibSettings:GetBool (string) (at Assets/TriLib/TriLibCore/Scripts/Misc/TriLibSettings.cs:64)
+TriLibCore.Editor.CheckMappers:Initialize () (at Assets/TriLib/TriLibCore/Editor/Scripts/CheckMappers.cs:18)
+
+[Assets/TriLib/TriLibCore/Scripts/Misc/TriLibSettings.cs line 40]
+
+UnityException: Creating asset at path Assets/TriLib/TriLibCore/Resources/TriLibSettings.asset failed.
+  at (wrapper managed-to-native) UnityEditor.AssetDatabase.CreateAsset(UnityEngine.Object,string)
+  at TriLibCore.TriLibSettings.GetTriLibPreferences () [0x00041] in /Users/vardnan/Documents/Development/5990_Project/5990_Project/Assets/TriLib/TriLibCore/Scripts/Misc/TriLibSettings.cs:40 
+  at TriLibCore.TriLibSettings.GetBool (System.String key) [0x00001] in /Users/vardnan/Documents/Development/5990_Project/5990_Project/Assets/TriLib/TriLibCore/Scripts/Misc/TriLibSettings.cs:64 
+  at TriLibCore.Editor.CheckMappers.Initialize () [0x00014] in /Users/vardnan/Documents/Development/5990_Project/5990_Project/Assets/TriLib/TriLibCore/Editor/Scripts/CheckMappers.cs:18 
+
+(Filename: Assets/TriLib/TriLibCore/Scripts/Misc/TriLibSettings.cs Line: 40)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  2.979 seconds
+Platform modules already initialized, skipping
+Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524294) extendedPlatform(0)
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.89 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3098 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 239.6 MB.
+System memory in use after: 239.8 MB.
+
+Unloading 54 unused Assets to reduce memory usage. Loaded Objects now: 3809.
+Total: 2.356167 ms (FindLiveObjects: 0.358792 ms CreateObjectMapping: 0.078292 ms MarkObjects: 1.768875 ms  DeleteObjects: 0.148417 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Import Request.
+  Time since last request: 273.297754 seconds.
+  path: Assets/Scripts/ChangeScene.cs
+  artifactKey: Guid(355c22472ce49451a9bca571d238d1d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ChangeScene.cs using Guid(355c22472ce49451a9bca571d238d1d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a7d24069d497ac420ece357c10a2f07') in 0.012866 seconds
+  Import took 0.019827 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008416 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.12 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+CreateSerializedAsset is not supported while importing out-of-process
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+TriLibCore.TriLibSettings:GetTriLibPreferences () (at Assets/TriLib/TriLibCore/Scripts/Misc/TriLibSettings.cs:40)
+TriLibCore.TriLibSettings:GetBool (string) (at Assets/TriLib/TriLibCore/Scripts/Misc/TriLibSettings.cs:64)
+TriLibCore.Editor.CheckMappers:Initialize () (at Assets/TriLib/TriLibCore/Editor/Scripts/CheckMappers.cs:18)
+
+[Assets/TriLib/TriLibCore/Scripts/Misc/TriLibSettings.cs line 40]
+
+UnityException: Creating asset at path Assets/TriLib/TriLibCore/Resources/TriLibSettings.asset failed.
+  at (wrapper managed-to-native) UnityEditor.AssetDatabase.CreateAsset(UnityEngine.Object,string)
+  at TriLibCore.TriLibSettings.GetTriLibPreferences () [0x00041] in /Users/vardnan/Documents/Development/5990_Project/5990_Project/Assets/TriLib/TriLibCore/Scripts/Misc/TriLibSettings.cs:40 
+  at TriLibCore.TriLibSettings.GetBool (System.String key) [0x00001] in /Users/vardnan/Documents/Development/5990_Project/5990_Project/Assets/TriLib/TriLibCore/Scripts/Misc/TriLibSettings.cs:64 
+  at TriLibCore.Editor.CheckMappers.Initialize () [0x00014] in /Users/vardnan/Documents/Development/5990_Project/5990_Project/Assets/TriLib/TriLibCore/Editor/Scripts/CheckMappers.cs:18 
+
+(Filename: Assets/TriLib/TriLibCore/Scripts/Misc/TriLibSettings.cs Line: 40)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  2.849 seconds
+Platform modules already initialized, skipping
+Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524294) extendedPlatform(0)
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.86 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3098 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 239.9 MB.
+System memory in use after: 240.0 MB.
+
+Unloading 54 unused Assets to reduce memory usage. Loaded Objects now: 3814.
+Total: 2.139000 ms (FindLiveObjects: 0.319125 ms CreateObjectMapping: 0.077250 ms MarkObjects: 1.614500 ms  DeleteObjects: 0.126583 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Import Request.
+  Time since last request: 86.518140 seconds.
+  path: Assets/Scripts/ChangeScene.cs
+  artifactKey: Guid(355c22472ce49451a9bca571d238d1d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ChangeScene.cs using Guid(355c22472ce49451a9bca571d238d1d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2bf2645b93462627089eaafba1eea0cd') in 0.009326 seconds
+  Import took 0.013722 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007334 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.98 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+CreateSerializedAsset is not supported while importing out-of-process
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+TriLibCore.TriLibSettings:GetTriLibPreferences () (at Assets/TriLib/TriLibCore/Scripts/Misc/TriLibSettings.cs:40)
+TriLibCore.TriLibSettings:GetBool (string) (at Assets/TriLib/TriLibCore/Scripts/Misc/TriLibSettings.cs:64)
+TriLibCore.Editor.CheckMappers:Initialize () (at Assets/TriLib/TriLibCore/Editor/Scripts/CheckMappers.cs:18)
+
+[Assets/TriLib/TriLibCore/Scripts/Misc/TriLibSettings.cs line 40]
+
+UnityException: Creating asset at path Assets/TriLib/TriLibCore/Resources/TriLibSettings.asset failed.
+  at (wrapper managed-to-native) UnityEditor.AssetDatabase.CreateAsset(UnityEngine.Object,string)
+  at TriLibCore.TriLibSettings.GetTriLibPreferences () [0x00041] in /Users/vardnan/Documents/Development/5990_Project/5990_Project/Assets/TriLib/TriLibCore/Scripts/Misc/TriLibSettings.cs:40 
+  at TriLibCore.TriLibSettings.GetBool (System.String key) [0x00001] in /Users/vardnan/Documents/Development/5990_Project/5990_Project/Assets/TriLib/TriLibCore/Scripts/Misc/TriLibSettings.cs:64 
+  at TriLibCore.Editor.CheckMappers.Initialize () [0x00014] in /Users/vardnan/Documents/Development/5990_Project/5990_Project/Assets/TriLib/TriLibCore/Editor/Scripts/CheckMappers.cs:18 
+
+(Filename: Assets/TriLib/TriLibCore/Scripts/Misc/TriLibSettings.cs Line: 40)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  2.942 seconds
+Platform modules already initialized, skipping
+Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524294) extendedPlatform(0)
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.92 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3098 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 240.1 MB.
+System memory in use after: 240.3 MB.
+
+Unloading 54 unused Assets to reduce memory usage. Loaded Objects now: 3819.
+Total: 2.154125 ms (FindLiveObjects: 0.343167 ms CreateObjectMapping: 0.083958 ms MarkObjects: 1.602333 ms  DeleteObjects: 0.123125 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Import Request.
+  Time since last request: 53.948376 seconds.
+  path: Assets/Scripts/ChangeScene.cs
+  artifactKey: Guid(355c22472ce49451a9bca571d238d1d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ChangeScene.cs using Guid(355c22472ce49451a9bca571d238d1d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59578d2d076ac8fd2ad62e43a43c67c7') in 0.008837 seconds
+  Import took 0.013337 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.010596 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.93 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+CreateSerializedAsset is not supported while importing out-of-process
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+TriLibCore.TriLibSettings:GetTriLibPreferences () (at Assets/TriLib/TriLibCore/Scripts/Misc/TriLibSettings.cs:40)
+TriLibCore.TriLibSettings:GetBool (string) (at Assets/TriLib/TriLibCore/Scripts/Misc/TriLibSettings.cs:64)
+TriLibCore.Editor.CheckMappers:Initialize () (at Assets/TriLib/TriLibCore/Editor/Scripts/CheckMappers.cs:18)
+
+[Assets/TriLib/TriLibCore/Scripts/Misc/TriLibSettings.cs line 40]
+
+UnityException: Creating asset at path Assets/TriLib/TriLibCore/Resources/TriLibSettings.asset failed.
+  at (wrapper managed-to-native) UnityEditor.AssetDatabase.CreateAsset(UnityEngine.Object,string)
+  at TriLibCore.TriLibSettings.GetTriLibPreferences () [0x00041] in /Users/vardnan/Documents/Development/5990_Project/5990_Project/Assets/TriLib/TriLibCore/Scripts/Misc/TriLibSettings.cs:40 
+  at TriLibCore.TriLibSettings.GetBool (System.String key) [0x00001] in /Users/vardnan/Documents/Development/5990_Project/5990_Project/Assets/TriLib/TriLibCore/Scripts/Misc/TriLibSettings.cs:64 
+  at TriLibCore.Editor.CheckMappers.Initialize () [0x00014] in /Users/vardnan/Documents/Development/5990_Project/5990_Project/Assets/TriLib/TriLibCore/Editor/Scripts/CheckMappers.cs:18 
+
+(Filename: Assets/TriLib/TriLibCore/Scripts/Misc/TriLibSettings.cs Line: 40)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  2.803 seconds
+Platform modules already initialized, skipping
+Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524294) extendedPlatform(0)
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.02 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3098 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 240.4 MB.
+System memory in use after: 240.6 MB.
+
+Unloading 54 unused Assets to reduce memory usage. Loaded Objects now: 3824.
+Total: 2.187500 ms (FindLiveObjects: 0.359041 ms CreateObjectMapping: 0.078125 ms MarkObjects: 1.619625 ms  DeleteObjects: 0.128709 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006868 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.97 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+CreateSerializedAsset is not supported while importing out-of-process
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+TriLibCore.TriLibSettings:GetTriLibPreferences () (at Assets/TriLib/TriLibCore/Scripts/Misc/TriLibSettings.cs:40)
+TriLibCore.TriLibSettings:GetBool (string) (at Assets/TriLib/TriLibCore/Scripts/Misc/TriLibSettings.cs:64)
+TriLibCore.Editor.CheckMappers:Initialize () (at Assets/TriLib/TriLibCore/Editor/Scripts/CheckMappers.cs:18)
+
+[Assets/TriLib/TriLibCore/Scripts/Misc/TriLibSettings.cs line 40]
+
+UnityException: Creating asset at path Assets/TriLib/TriLibCore/Resources/TriLibSettings.asset failed.
+  at (wrapper managed-to-native) UnityEditor.AssetDatabase.CreateAsset(UnityEngine.Object,string)
+  at TriLibCore.TriLibSettings.GetTriLibPreferences () [0x00041] in /Users/vardnan/Documents/Development/5990_Project/5990_Project/Assets/TriLib/TriLibCore/Scripts/Misc/TriLibSettings.cs:40 
+  at TriLibCore.TriLibSettings.GetBool (System.String key) [0x00001] in /Users/vardnan/Documents/Development/5990_Project/5990_Project/Assets/TriLib/TriLibCore/Scripts/Misc/TriLibSettings.cs:64 
+  at TriLibCore.Editor.CheckMappers.Initialize () [0x00014] in /Users/vardnan/Documents/Development/5990_Project/5990_Project/Assets/TriLib/TriLibCore/Editor/Scripts/CheckMappers.cs:18 
+
+(Filename: Assets/TriLib/TriLibCore/Scripts/Misc/TriLibSettings.cs Line: 40)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  2.895 seconds
+Platform modules already initialized, skipping
+Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524294) extendedPlatform(0)
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.93 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3098 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 240.6 MB.
+System memory in use after: 240.8 MB.
+
+Unloading 54 unused Assets to reduce memory usage. Loaded Objects now: 3829.
+Total: 2.143959 ms (FindLiveObjects: 0.326209 ms CreateObjectMapping: 0.080042 ms MarkObjects: 1.605208 ms  DeleteObjects: 0.131292 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Import Request.
+  Time since last request: 286.456869 seconds.
+  path: Assets/Scripts/ChangeScene.cs
+  artifactKey: Guid(355c22472ce49451a9bca571d238d1d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ChangeScene.cs using Guid(355c22472ce49451a9bca571d238d1d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9b8a5639a8691ac5b496f5bfddad5b8') in 0.009477 seconds
+  Import took 0.014045 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.953558 seconds.
+  path: Assets/Scripts/ChangeScene.cs
+  artifactKey: Guid(355c22472ce49451a9bca571d238d1d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ChangeScene.cs using Guid(355c22472ce49451a9bca571d238d1d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9b8a5639a8691ac5b496f5bfddad5b8') in 0.001113 seconds
+  Import took 0.006574 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007386 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.98 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+CreateSerializedAsset is not supported while importing out-of-process
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+TriLibCore.TriLibSettings:GetTriLibPreferences () (at Assets/TriLib/TriLibCore/Scripts/Misc/TriLibSettings.cs:40)
+TriLibCore.TriLibSettings:GetBool (string) (at Assets/TriLib/TriLibCore/Scripts/Misc/TriLibSettings.cs:64)
+TriLibCore.Editor.CheckMappers:Initialize () (at Assets/TriLib/TriLibCore/Editor/Scripts/CheckMappers.cs:18)
+
+[Assets/TriLib/TriLibCore/Scripts/Misc/TriLibSettings.cs line 40]
+
+UnityException: Creating asset at path Assets/TriLib/TriLibCore/Resources/TriLibSettings.asset failed.
+  at (wrapper managed-to-native) UnityEditor.AssetDatabase.CreateAsset(UnityEngine.Object,string)
+  at TriLibCore.TriLibSettings.GetTriLibPreferences () [0x00041] in /Users/vardnan/Documents/Development/5990_Project/5990_Project/Assets/TriLib/TriLibCore/Scripts/Misc/TriLibSettings.cs:40 
+  at TriLibCore.TriLibSettings.GetBool (System.String key) [0x00001] in /Users/vardnan/Documents/Development/5990_Project/5990_Project/Assets/TriLib/TriLibCore/Scripts/Misc/TriLibSettings.cs:64 
+  at TriLibCore.Editor.CheckMappers.Initialize () [0x00014] in /Users/vardnan/Documents/Development/5990_Project/5990_Project/Assets/TriLib/TriLibCore/Editor/Scripts/CheckMappers.cs:18 
+
+(Filename: Assets/TriLib/TriLibCore/Scripts/Misc/TriLibSettings.cs Line: 40)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  2.908 seconds
+Platform modules already initialized, skipping
+Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524294) extendedPlatform(0)
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.89 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3098 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 240.9 MB.
+System memory in use after: 241.1 MB.
+
+Unloading 54 unused Assets to reduce memory usage. Loaded Objects now: 3834.
+Total: 2.108250 ms (FindLiveObjects: 0.327667 ms CreateObjectMapping: 0.074916 ms MarkObjects: 1.575625 ms  DeleteObjects: 0.128458 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Import Request.
+  Time since last request: 177.969265 seconds.
+  path: Assets/Scripts/ChangeScene.cs
+  artifactKey: Guid(355c22472ce49451a9bca571d238d1d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ChangeScene.cs using Guid(355c22472ce49451a9bca571d238d1d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2be2e33f9e704d84d4924e6bf29b92b1') in 0.009970 seconds
+  Import took 0.015184 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007057 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.29 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+CreateSerializedAsset is not supported while importing out-of-process
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+TriLibCore.TriLibSettings:GetTriLibPreferences () (at Assets/TriLib/TriLibCore/Scripts/Misc/TriLibSettings.cs:40)
+TriLibCore.TriLibSettings:GetBool (string) (at Assets/TriLib/TriLibCore/Scripts/Misc/TriLibSettings.cs:64)
+TriLibCore.Editor.CheckMappers:Initialize () (at Assets/TriLib/TriLibCore/Editor/Scripts/CheckMappers.cs:18)
+
+[Assets/TriLib/TriLibCore/Scripts/Misc/TriLibSettings.cs line 40]
+
+UnityException: Creating asset at path Assets/TriLib/TriLibCore/Resources/TriLibSettings.asset failed.
+  at (wrapper managed-to-native) UnityEditor.AssetDatabase.CreateAsset(UnityEngine.Object,string)
+  at TriLibCore.TriLibSettings.GetTriLibPreferences () [0x00041] in /Users/vardnan/Documents/Development/5990_Project/5990_Project/Assets/TriLib/TriLibCore/Scripts/Misc/TriLibSettings.cs:40 
+  at TriLibCore.TriLibSettings.GetBool (System.String key) [0x00001] in /Users/vardnan/Documents/Development/5990_Project/5990_Project/Assets/TriLib/TriLibCore/Scripts/Misc/TriLibSettings.cs:64 
+  at TriLibCore.Editor.CheckMappers.Initialize () [0x00014] in /Users/vardnan/Documents/Development/5990_Project/5990_Project/Assets/TriLib/TriLibCore/Editor/Scripts/CheckMappers.cs:18 
+
+(Filename: Assets/TriLib/TriLibCore/Scripts/Misc/TriLibSettings.cs Line: 40)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  2.932 seconds
+Platform modules already initialized, skipping
+Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524294) extendedPlatform(0)
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.87 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3098 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 241.2 MB.
+System memory in use after: 241.4 MB.
+
+Unloading 54 unused Assets to reduce memory usage. Loaded Objects now: 3839.
+Total: 2.120208 ms (FindLiveObjects: 0.318208 ms CreateObjectMapping: 0.077042 ms MarkObjects: 1.607791 ms  DeleteObjects: 0.115709 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Import Request.
+  Time since last request: 84.060677 seconds.
+  path: Assets/Scripts/ChangeScene.cs
+  artifactKey: Guid(355c22472ce49451a9bca571d238d1d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ChangeScene.cs using Guid(355c22472ce49451a9bca571d238d1d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0aa64f2ecb3a899086276a7d390aff0e') in 0.010286 seconds
+  Import took 0.014952 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007754 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.98 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+CreateSerializedAsset is not supported while importing out-of-process
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+TriLibCore.TriLibSettings:GetTriLibPreferences () (at Assets/TriLib/TriLibCore/Scripts/Misc/TriLibSettings.cs:40)
+TriLibCore.TriLibSettings:GetBool (string) (at Assets/TriLib/TriLibCore/Scripts/Misc/TriLibSettings.cs:64)
+TriLibCore.Editor.CheckMappers:Initialize () (at Assets/TriLib/TriLibCore/Editor/Scripts/CheckMappers.cs:18)
+
+[Assets/TriLib/TriLibCore/Scripts/Misc/TriLibSettings.cs line 40]
+
+UnityException: Creating asset at path Assets/TriLib/TriLibCore/Resources/TriLibSettings.asset failed.
+  at (wrapper managed-to-native) UnityEditor.AssetDatabase.CreateAsset(UnityEngine.Object,string)
+  at TriLibCore.TriLibSettings.GetTriLibPreferences () [0x00041] in /Users/vardnan/Documents/Development/5990_Project/5990_Project/Assets/TriLib/TriLibCore/Scripts/Misc/TriLibSettings.cs:40 
+  at TriLibCore.TriLibSettings.GetBool (System.String key) [0x00001] in /Users/vardnan/Documents/Development/5990_Project/5990_Project/Assets/TriLib/TriLibCore/Scripts/Misc/TriLibSettings.cs:64 
+  at TriLibCore.Editor.CheckMappers.Initialize () [0x00014] in /Users/vardnan/Documents/Development/5990_Project/5990_Project/Assets/TriLib/TriLibCore/Editor/Scripts/CheckMappers.cs:18 
+
+(Filename: Assets/TriLib/TriLibCore/Scripts/Misc/TriLibSettings.cs Line: 40)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  2.901 seconds
+Platform modules already initialized, skipping
+Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524294) extendedPlatform(0)
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.93 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3098 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 241.5 MB.
+System memory in use after: 241.6 MB.
+
+Unloading 54 unused Assets to reduce memory usage. Loaded Objects now: 3844.
+Total: 2.192500 ms (FindLiveObjects: 0.371875 ms CreateObjectMapping: 0.077916 ms MarkObjects: 1.613917 ms  DeleteObjects: 0.127208 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Import Request.
+  Time since last request: 67.897503 seconds.
+  path: Assets/Scripts/ChangeScene.cs
+  artifactKey: Guid(355c22472ce49451a9bca571d238d1d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ChangeScene.cs using Guid(355c22472ce49451a9bca571d238d1d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf97927490bc4be50647a4f8b44572a8') in 0.011608 seconds
+  Import took 0.016563 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005747 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.18 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+CreateSerializedAsset is not supported while importing out-of-process
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+TriLibCore.TriLibSettings:GetTriLibPreferences () (at Assets/TriLib/TriLibCore/Scripts/Misc/TriLibSettings.cs:40)
+TriLibCore.TriLibSettings:GetBool (string) (at Assets/TriLib/TriLibCore/Scripts/Misc/TriLibSettings.cs:64)
+TriLibCore.Editor.CheckMappers:Initialize () (at Assets/TriLib/TriLibCore/Editor/Scripts/CheckMappers.cs:18)
+
+[Assets/TriLib/TriLibCore/Scripts/Misc/TriLibSettings.cs line 40]
+
+UnityException: Creating asset at path Assets/TriLib/TriLibCore/Resources/TriLibSettings.asset failed.
+  at (wrapper managed-to-native) UnityEditor.AssetDatabase.CreateAsset(UnityEngine.Object,string)
+  at TriLibCore.TriLibSettings.GetTriLibPreferences () [0x00041] in /Users/vardnan/Documents/Development/5990_Project/5990_Project/Assets/TriLib/TriLibCore/Scripts/Misc/TriLibSettings.cs:40 
+  at TriLibCore.TriLibSettings.GetBool (System.String key) [0x00001] in /Users/vardnan/Documents/Development/5990_Project/5990_Project/Assets/TriLib/TriLibCore/Scripts/Misc/TriLibSettings.cs:64 
+  at TriLibCore.Editor.CheckMappers.Initialize () [0x00014] in /Users/vardnan/Documents/Development/5990_Project/5990_Project/Assets/TriLib/TriLibCore/Editor/Scripts/CheckMappers.cs:18 
+
+(Filename: Assets/TriLib/TriLibCore/Scripts/Misc/TriLibSettings.cs Line: 40)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  3.137 seconds
+Platform modules already initialized, skipping
+Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524294) extendedPlatform(0)
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.86 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3098 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 241.8 MB.
+System memory in use after: 242.0 MB.
+
+Unloading 54 unused Assets to reduce memory usage. Loaded Objects now: 3849.
+Total: 2.241542 ms (FindLiveObjects: 0.386792 ms CreateObjectMapping: 0.080750 ms MarkObjects: 1.642875 ms  DeleteObjects: 0.129375 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Import Request.
+  Time since last request: 79.237393 seconds.
+  path: Assets/Scripts/ChangeScene.cs
+  artifactKey: Guid(355c22472ce49451a9bca571d238d1d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ChangeScene.cs using Guid(355c22472ce49451a9bca571d238d1d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '615716b991513e294ce75918f7bc0653') in 0.013798 seconds
+  Import took 0.019076 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.010983 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.10 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+CreateSerializedAsset is not supported while importing out-of-process
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+TriLibCore.TriLibSettings:GetTriLibPreferences () (at Assets/TriLib/TriLibCore/Scripts/Misc/TriLibSettings.cs:40)
+TriLibCore.TriLibSettings:GetBool (string) (at Assets/TriLib/TriLibCore/Scripts/Misc/TriLibSettings.cs:64)
+TriLibCore.Editor.CheckMappers:Initialize () (at Assets/TriLib/TriLibCore/Editor/Scripts/CheckMappers.cs:18)
+
+[Assets/TriLib/TriLibCore/Scripts/Misc/TriLibSettings.cs line 40]
+
+UnityException: Creating asset at path Assets/TriLib/TriLibCore/Resources/TriLibSettings.asset failed.
+  at (wrapper managed-to-native) UnityEditor.AssetDatabase.CreateAsset(UnityEngine.Object,string)
+  at TriLibCore.TriLibSettings.GetTriLibPreferences () [0x00041] in /Users/vardnan/Documents/Development/5990_Project/5990_Project/Assets/TriLib/TriLibCore/Scripts/Misc/TriLibSettings.cs:40 
+  at TriLibCore.TriLibSettings.GetBool (System.String key) [0x00001] in /Users/vardnan/Documents/Development/5990_Project/5990_Project/Assets/TriLib/TriLibCore/Scripts/Misc/TriLibSettings.cs:64 
+  at TriLibCore.Editor.CheckMappers.Initialize () [0x00014] in /Users/vardnan/Documents/Development/5990_Project/5990_Project/Assets/TriLib/TriLibCore/Editor/Scripts/CheckMappers.cs:18 
+
+(Filename: Assets/TriLib/TriLibCore/Scripts/Misc/TriLibSettings.cs Line: 40)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  2.735 seconds
+Platform modules already initialized, skipping
+Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524294) extendedPlatform(0)
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.14 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3098 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 242.1 MB.
+System memory in use after: 242.3 MB.
+
+Unloading 54 unused Assets to reduce memory usage. Loaded Objects now: 3854.
+Total: 3.669042 ms (FindLiveObjects: 0.844625 ms CreateObjectMapping: 0.104166 ms MarkObjects: 2.534084 ms  DeleteObjects: 0.182458 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006681 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.98 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+CreateSerializedAsset is not supported while importing out-of-process
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+TriLibCore.TriLibSettings:GetTriLibPreferences () (at Assets/TriLib/TriLibCore/Scripts/Misc/TriLibSettings.cs:40)
+TriLibCore.TriLibSettings:GetBool (string) (at Assets/TriLib/TriLibCore/Scripts/Misc/TriLibSettings.cs:64)
+TriLibCore.Editor.CheckMappers:Initialize () (at Assets/TriLib/TriLibCore/Editor/Scripts/CheckMappers.cs:18)
+
+[Assets/TriLib/TriLibCore/Scripts/Misc/TriLibSettings.cs line 40]
+
+UnityException: Creating asset at path Assets/TriLib/TriLibCore/Resources/TriLibSettings.asset failed.
+  at (wrapper managed-to-native) UnityEditor.AssetDatabase.CreateAsset(UnityEngine.Object,string)
+  at TriLibCore.TriLibSettings.GetTriLibPreferences () [0x00041] in /Users/vardnan/Documents/Development/5990_Project/5990_Project/Assets/TriLib/TriLibCore/Scripts/Misc/TriLibSettings.cs:40 
+  at TriLibCore.TriLibSettings.GetBool (System.String key) [0x00001] in /Users/vardnan/Documents/Development/5990_Project/5990_Project/Assets/TriLib/TriLibCore/Scripts/Misc/TriLibSettings.cs:64 
+  at TriLibCore.Editor.CheckMappers.Initialize () [0x00014] in /Users/vardnan/Documents/Development/5990_Project/5990_Project/Assets/TriLib/TriLibCore/Editor/Scripts/CheckMappers.cs:18 
+
+(Filename: Assets/TriLib/TriLibCore/Scripts/Misc/TriLibSettings.cs Line: 40)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  2.947 seconds
+Platform modules already initialized, skipping
+Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524294) extendedPlatform(0)
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.06 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3098 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 242.4 MB.
+System memory in use after: 242.5 MB.
+
+Unloading 54 unused Assets to reduce memory usage. Loaded Objects now: 3859.
+Total: 2.365625 ms (FindLiveObjects: 0.434209 ms CreateObjectMapping: 0.084500 ms MarkObjects: 1.704834 ms  DeleteObjects: 0.140334 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005883 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.93 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+CreateSerializedAsset is not supported while importing out-of-process
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+TriLibCore.TriLibSettings:GetTriLibPreferences () (at Assets/TriLib/TriLibCore/Scripts/Misc/TriLibSettings.cs:40)
+TriLibCore.TriLibSettings:GetBool (string) (at Assets/TriLib/TriLibCore/Scripts/Misc/TriLibSettings.cs:64)
+TriLibCore.Editor.CheckMappers:Initialize () (at Assets/TriLib/TriLibCore/Editor/Scripts/CheckMappers.cs:18)
+
+[Assets/TriLib/TriLibCore/Scripts/Misc/TriLibSettings.cs line 40]
+
+UnityException: Creating asset at path Assets/TriLib/TriLibCore/Resources/TriLibSettings.asset failed.
+  at (wrapper managed-to-native) UnityEditor.AssetDatabase.CreateAsset(UnityEngine.Object,string)
+  at TriLibCore.TriLibSettings.GetTriLibPreferences () [0x00041] in /Users/vardnan/Documents/Development/5990_Project/5990_Project/Assets/TriLib/TriLibCore/Scripts/Misc/TriLibSettings.cs:40 
+  at TriLibCore.TriLibSettings.GetBool (System.String key) [0x00001] in /Users/vardnan/Documents/Development/5990_Project/5990_Project/Assets/TriLib/TriLibCore/Scripts/Misc/TriLibSettings.cs:64 
+  at TriLibCore.Editor.CheckMappers.Initialize () [0x00014] in /Users/vardnan/Documents/Development/5990_Project/5990_Project/Assets/TriLib/TriLibCore/Editor/Scripts/CheckMappers.cs:18 
+
+(Filename: Assets/TriLib/TriLibCore/Scripts/Misc/TriLibSettings.cs Line: 40)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  2.749 seconds
+Platform modules already initialized, skipping
+Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524294) extendedPlatform(0)
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.87 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3098 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 242.6 MB.
+System memory in use after: 242.8 MB.
+
+Unloading 54 unused Assets to reduce memory usage. Loaded Objects now: 3864.
+Total: 2.215041 ms (FindLiveObjects: 0.362750 ms CreateObjectMapping: 0.076750 ms MarkObjects: 1.650708 ms  DeleteObjects: 0.122208 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Import Request.
+  Time since last request: 125.428261 seconds.
+  path: Assets/Scripts/ChangeScene.cs
+  artifactKey: Guid(355c22472ce49451a9bca571d238d1d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ChangeScene.cs using Guid(355c22472ce49451a9bca571d238d1d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ff82fd69b829215acb4dc4c31357142') in 0.016749 seconds
+  Import took 0.021532 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006926 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.97 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+CreateSerializedAsset is not supported while importing out-of-process
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+TriLibCore.TriLibSettings:GetTriLibPreferences () (at Assets/TriLib/TriLibCore/Scripts/Misc/TriLibSettings.cs:40)
+TriLibCore.TriLibSettings:GetBool (string) (at Assets/TriLib/TriLibCore/Scripts/Misc/TriLibSettings.cs:64)
+TriLibCore.Editor.CheckMappers:Initialize () (at Assets/TriLib/TriLibCore/Editor/Scripts/CheckMappers.cs:18)
+
+[Assets/TriLib/TriLibCore/Scripts/Misc/TriLibSettings.cs line 40]
+
+UnityException: Creating asset at path Assets/TriLib/TriLibCore/Resources/TriLibSettings.asset failed.
+  at (wrapper managed-to-native) UnityEditor.AssetDatabase.CreateAsset(UnityEngine.Object,string)
+  at TriLibCore.TriLibSettings.GetTriLibPreferences () [0x00041] in /Users/vardnan/Documents/Development/5990_Project/5990_Project/Assets/TriLib/TriLibCore/Scripts/Misc/TriLibSettings.cs:40 
+  at TriLibCore.TriLibSettings.GetBool (System.String key) [0x00001] in /Users/vardnan/Documents/Development/5990_Project/5990_Project/Assets/TriLib/TriLibCore/Scripts/Misc/TriLibSettings.cs:64 
+  at TriLibCore.Editor.CheckMappers.Initialize () [0x00014] in /Users/vardnan/Documents/Development/5990_Project/5990_Project/Assets/TriLib/TriLibCore/Editor/Scripts/CheckMappers.cs:18 
+
+(Filename: Assets/TriLib/TriLibCore/Scripts/Misc/TriLibSettings.cs Line: 40)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  2.887 seconds
+Platform modules already initialized, skipping
+Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524294) extendedPlatform(0)
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.88 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3098 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 242.9 MB.
+System memory in use after: 243.1 MB.
+
+Unloading 54 unused Assets to reduce memory usage. Loaded Objects now: 3869.
+Total: 2.091000 ms (FindLiveObjects: 0.303292 ms CreateObjectMapping: 0.072417 ms MarkObjects: 1.592083 ms  DeleteObjects: 0.121166 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Import Request.
+  Time since last request: 77.937066 seconds.
+  path: Assets/Scripts/ChangeScene.cs
+  artifactKey: Guid(355c22472ce49451a9bca571d238d1d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ChangeScene.cs using Guid(355c22472ce49451a9bca571d238d1d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d81fa427e337a834bfe97b72703c169') in 0.009061 seconds
+  Import took 0.013685 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.012739 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.98 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+CreateSerializedAsset is not supported while importing out-of-process
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+TriLibCore.TriLibSettings:GetTriLibPreferences () (at Assets/TriLib/TriLibCore/Scripts/Misc/TriLibSettings.cs:40)
+TriLibCore.TriLibSettings:GetBool (string) (at Assets/TriLib/TriLibCore/Scripts/Misc/TriLibSettings.cs:64)
+TriLibCore.Editor.CheckMappers:Initialize () (at Assets/TriLib/TriLibCore/Editor/Scripts/CheckMappers.cs:18)
+
+[Assets/TriLib/TriLibCore/Scripts/Misc/TriLibSettings.cs line 40]
+
+UnityException: Creating asset at path Assets/TriLib/TriLibCore/Resources/TriLibSettings.asset failed.
+  at (wrapper managed-to-native) UnityEditor.AssetDatabase.CreateAsset(UnityEngine.Object,string)
+  at TriLibCore.TriLibSettings.GetTriLibPreferences () [0x00041] in /Users/vardnan/Documents/Development/5990_Project/5990_Project/Assets/TriLib/TriLibCore/Scripts/Misc/TriLibSettings.cs:40 
+  at TriLibCore.TriLibSettings.GetBool (System.String key) [0x00001] in /Users/vardnan/Documents/Development/5990_Project/5990_Project/Assets/TriLib/TriLibCore/Scripts/Misc/TriLibSettings.cs:64 
+  at TriLibCore.Editor.CheckMappers.Initialize () [0x00014] in /Users/vardnan/Documents/Development/5990_Project/5990_Project/Assets/TriLib/TriLibCore/Editor/Scripts/CheckMappers.cs:18 
+
+(Filename: Assets/TriLib/TriLibCore/Scripts/Misc/TriLibSettings.cs Line: 40)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  3.486 seconds
+Platform modules already initialized, skipping
+Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524294) extendedPlatform(0)
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.18 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3098 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 243.2 MB.
+System memory in use after: 243.3 MB.
+
+Unloading 54 unused Assets to reduce memory usage. Loaded Objects now: 3874.
+Total: 2.697125 ms (FindLiveObjects: 0.409167 ms CreateObjectMapping: 0.100209 ms MarkObjects: 1.946125 ms  DeleteObjects: 0.237000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Import Request.
+  Time since last request: 841.916681 seconds.
+  path: Assets/Scripts/ChangeScene.cs
+  artifactKey: Guid(355c22472ce49451a9bca571d238d1d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ChangeScene.cs using Guid(355c22472ce49451a9bca571d238d1d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02909b655edb895712aec9bbeeb67e08') in 0.037897 seconds
+  Import took 0.061830 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.138622 seconds.
+  path: Assets/Scripts/ChangeScene.cs
+  artifactKey: Guid(355c22472ce49451a9bca571d238d1d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ChangeScene.cs using Guid(355c22472ce49451a9bca571d238d1d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02909b655edb895712aec9bbeeb67e08') in 0.001070 seconds
+  Import took 0.006301 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006806 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.07 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+CreateSerializedAsset is not supported while importing out-of-process
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+TriLibCore.TriLibSettings:GetTriLibPreferences () (at Assets/TriLib/TriLibCore/Scripts/Misc/TriLibSettings.cs:40)
+TriLibCore.TriLibSettings:GetBool (string) (at Assets/TriLib/TriLibCore/Scripts/Misc/TriLibSettings.cs:64)
+TriLibCore.Editor.CheckMappers:Initialize () (at Assets/TriLib/TriLibCore/Editor/Scripts/CheckMappers.cs:18)
+
+[Assets/TriLib/TriLibCore/Scripts/Misc/TriLibSettings.cs line 40]
+
+UnityException: Creating asset at path Assets/TriLib/TriLibCore/Resources/TriLibSettings.asset failed.
+  at (wrapper managed-to-native) UnityEditor.AssetDatabase.CreateAsset(UnityEngine.Object,string)
+  at TriLibCore.TriLibSettings.GetTriLibPreferences () [0x00041] in /Users/vardnan/Documents/Development/5990_Project/5990_Project/Assets/TriLib/TriLibCore/Scripts/Misc/TriLibSettings.cs:40 
+  at TriLibCore.TriLibSettings.GetBool (System.String key) [0x00001] in /Users/vardnan/Documents/Development/5990_Project/5990_Project/Assets/TriLib/TriLibCore/Scripts/Misc/TriLibSettings.cs:64 
+  at TriLibCore.Editor.CheckMappers.Initialize () [0x00014] in /Users/vardnan/Documents/Development/5990_Project/5990_Project/Assets/TriLib/TriLibCore/Editor/Scripts/CheckMappers.cs:18 
+
+(Filename: Assets/TriLib/TriLibCore/Scripts/Misc/TriLibSettings.cs Line: 40)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  2.980 seconds
+Platform modules already initialized, skipping
+Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524294) extendedPlatform(0)
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.01 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3098 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 243.5 MB.
+System memory in use after: 243.6 MB.
+
+Unloading 54 unused Assets to reduce memory usage. Loaded Objects now: 3879.
+Total: 2.099375 ms (FindLiveObjects: 0.307042 ms CreateObjectMapping: 0.072291 ms MarkObjects: 1.586750 ms  DeleteObjects: 0.131500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Import Request.
+  Time since last request: 144.699343 seconds.
+  path: Assets/Scripts/ChangeScene.cs
+  artifactKey: Guid(355c22472ce49451a9bca571d238d1d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ChangeScene.cs using Guid(355c22472ce49451a9bca571d238d1d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4252e6297d2b193265dcd65c1728d3fb') in 0.011755 seconds
+  Import took 0.017217 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007442 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.98 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+CreateSerializedAsset is not supported while importing out-of-process
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+TriLibCore.TriLibSettings:GetTriLibPreferences () (at Assets/TriLib/TriLibCore/Scripts/Misc/TriLibSettings.cs:40)
+TriLibCore.TriLibSettings:GetBool (string) (at Assets/TriLib/TriLibCore/Scripts/Misc/TriLibSettings.cs:64)
+TriLibCore.Editor.CheckMappers:Initialize () (at Assets/TriLib/TriLibCore/Editor/Scripts/CheckMappers.cs:18)
+
+[Assets/TriLib/TriLibCore/Scripts/Misc/TriLibSettings.cs line 40]
+
+UnityException: Creating asset at path Assets/TriLib/TriLibCore/Resources/TriLibSettings.asset failed.
+  at (wrapper managed-to-native) UnityEditor.AssetDatabase.CreateAsset(UnityEngine.Object,string)
+  at TriLibCore.TriLibSettings.GetTriLibPreferences () [0x00041] in /Users/vardnan/Documents/Development/5990_Project/5990_Project/Assets/TriLib/TriLibCore/Scripts/Misc/TriLibSettings.cs:40 
+  at TriLibCore.TriLibSettings.GetBool (System.String key) [0x00001] in /Users/vardnan/Documents/Development/5990_Project/5990_Project/Assets/TriLib/TriLibCore/Scripts/Misc/TriLibSettings.cs:64 
+  at TriLibCore.Editor.CheckMappers.Initialize () [0x00014] in /Users/vardnan/Documents/Development/5990_Project/5990_Project/Assets/TriLib/TriLibCore/Editor/Scripts/CheckMappers.cs:18 
+
+(Filename: Assets/TriLib/TriLibCore/Scripts/Misc/TriLibSettings.cs Line: 40)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  3.062 seconds
+Platform modules already initialized, skipping
+Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524294) extendedPlatform(0)
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.05 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3098 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 243.8 MB.
+System memory in use after: 244.0 MB.
+
+Unloading 54 unused Assets to reduce memory usage. Loaded Objects now: 3884.
+Total: 2.525209 ms (FindLiveObjects: 0.416208 ms CreateObjectMapping: 0.090500 ms MarkObjects: 1.858958 ms  DeleteObjects: 0.157000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Import Request.
+  Time since last request: 289.134409 seconds.
+  path: Assets/Scripts/ChangeScene.cs
+  artifactKey: Guid(355c22472ce49451a9bca571d238d1d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ChangeScene.cs using Guid(355c22472ce49451a9bca571d238d1d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b4f41b1ed96cdeeb2545e3d6e209760') in 0.011647 seconds
+  Import took 0.017793 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.032146 seconds.
+  path: Assets/Scripts/ChangeScene.cs
+  artifactKey: Guid(355c22472ce49451a9bca571d238d1d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ChangeScene.cs using Guid(355c22472ce49451a9bca571d238d1d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b4f41b1ed96cdeeb2545e3d6e209760') in 0.001234 seconds
+  Import took 0.005897 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.009864 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 8.03 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+CreateSerializedAsset is not supported while importing out-of-process
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+TriLibCore.TriLibSettings:GetTriLibPreferences () (at Assets/TriLib/TriLibCore/Scripts/Misc/TriLibSettings.cs:40)
+TriLibCore.TriLibSettings:GetBool (string) (at Assets/TriLib/TriLibCore/Scripts/Misc/TriLibSettings.cs:64)
+TriLibCore.Editor.CheckMappers:Initialize () (at Assets/TriLib/TriLibCore/Editor/Scripts/CheckMappers.cs:18)
+
+[Assets/TriLib/TriLibCore/Scripts/Misc/TriLibSettings.cs line 40]
+
+UnityException: Creating asset at path Assets/TriLib/TriLibCore/Resources/TriLibSettings.asset failed.
+  at (wrapper managed-to-native) UnityEditor.AssetDatabase.CreateAsset(UnityEngine.Object,string)
+  at TriLibCore.TriLibSettings.GetTriLibPreferences () [0x00041] in /Users/vardnan/Documents/Development/5990_Project/5990_Project/Assets/TriLib/TriLibCore/Scripts/Misc/TriLibSettings.cs:40 
+  at TriLibCore.TriLibSettings.GetBool (System.String key) [0x00001] in /Users/vardnan/Documents/Development/5990_Project/5990_Project/Assets/TriLib/TriLibCore/Scripts/Misc/TriLibSettings.cs:64 
+  at TriLibCore.Editor.CheckMappers.Initialize () [0x00014] in /Users/vardnan/Documents/Development/5990_Project/5990_Project/Assets/TriLib/TriLibCore/Editor/Scripts/CheckMappers.cs:18 
+
+(Filename: Assets/TriLib/TriLibCore/Scripts/Misc/TriLibSettings.cs Line: 40)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  4.004 seconds
+Platform modules already initialized, skipping
+Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524294) extendedPlatform(0)
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.39 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3099 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 244.1 MB.
+System memory in use after: 244.3 MB.
+
+Unloading 54 unused Assets to reduce memory usage. Loaded Objects now: 3890.
+Total: 6.794541 ms (FindLiveObjects: 0.728375 ms CreateObjectMapping: 0.148875 ms MarkObjects: 5.642041 ms  DeleteObjects: 0.269000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006835 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.01 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+CreateSerializedAsset is not supported while importing out-of-process
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+TriLibCore.TriLibSettings:GetTriLibPreferences () (at Assets/TriLib/TriLibCore/Scripts/Misc/TriLibSettings.cs:40)
+TriLibCore.TriLibSettings:GetBool (string) (at Assets/TriLib/TriLibCore/Scripts/Misc/TriLibSettings.cs:64)
+TriLibCore.Editor.CheckMappers:Initialize () (at Assets/TriLib/TriLibCore/Editor/Scripts/CheckMappers.cs:18)
+
+[Assets/TriLib/TriLibCore/Scripts/Misc/TriLibSettings.cs line 40]
+
+UnityException: Creating asset at path Assets/TriLib/TriLibCore/Resources/TriLibSettings.asset failed.
+  at (wrapper managed-to-native) UnityEditor.AssetDatabase.CreateAsset(UnityEngine.Object,string)
+  at TriLibCore.TriLibSettings.GetTriLibPreferences () [0x00041] in /Users/vardnan/Documents/Development/5990_Project/5990_Project/Assets/TriLib/TriLibCore/Scripts/Misc/TriLibSettings.cs:40 
+  at TriLibCore.TriLibSettings.GetBool (System.String key) [0x00001] in /Users/vardnan/Documents/Development/5990_Project/5990_Project/Assets/TriLib/TriLibCore/Scripts/Misc/TriLibSettings.cs:64 
+  at TriLibCore.Editor.CheckMappers.Initialize () [0x00014] in /Users/vardnan/Documents/Development/5990_Project/5990_Project/Assets/TriLib/TriLibCore/Editor/Scripts/CheckMappers.cs:18 
+
+(Filename: Assets/TriLib/TriLibCore/Scripts/Misc/TriLibSettings.cs Line: 40)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  2.957 seconds
+Platform modules already initialized, skipping
+Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524294) extendedPlatform(0)
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.91 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3099 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 244.4 MB.
+System memory in use after: 244.6 MB.
+
+Unloading 54 unused Assets to reduce memory usage. Loaded Objects now: 3895.
+Total: 2.093666 ms (FindLiveObjects: 0.283500 ms CreateObjectMapping: 0.086625 ms MarkObjects: 1.602833 ms  DeleteObjects: 0.119000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Import Request.
+  Time since last request: 75.897189 seconds.
+  path: Assets/Scripts/SwitchScene.cs
+  artifactKey: Guid(c74d905f3a94a4f0b868eae22d7bf3b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/SwitchScene.cs using Guid(c74d905f3a94a4f0b868eae22d7bf3b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18608caf1e8d0d25f5b3ce3410220170') in 0.011444 seconds
+  Import took 0.015928 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 150.289884 seconds.
+  path: Assets/Scripts/SwitchScene.cs
+  artifactKey: Guid(c74d905f3a94a4f0b868eae22d7bf3b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/SwitchScene.cs using Guid(c74d905f3a94a4f0b868eae22d7bf3b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93f094e6cd344cf9665069c793a20869') in 0.038819 seconds
+  Import took 0.093442 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002432 seconds.
+  path: Assets/Scripts/SwitchScene.cs
+  artifactKey: Guid(c74d905f3a94a4f0b868eae22d7bf3b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/SwitchScene.cs using Guid(c74d905f3a94a4f0b868eae22d7bf3b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93f094e6cd344cf9665069c793a20869') in 0.002216 seconds
+  Import took 0.007150 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008127 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.97 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+CreateSerializedAsset is not supported while importing out-of-process
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+TriLibCore.TriLibSettings:GetTriLibPreferences () (at Assets/TriLib/TriLibCore/Scripts/Misc/TriLibSettings.cs:40)
+TriLibCore.TriLibSettings:GetBool (string) (at Assets/TriLib/TriLibCore/Scripts/Misc/TriLibSettings.cs:64)
+TriLibCore.Editor.CheckMappers:Initialize () (at Assets/TriLib/TriLibCore/Editor/Scripts/CheckMappers.cs:18)
+
+[Assets/TriLib/TriLibCore/Scripts/Misc/TriLibSettings.cs line 40]
+
+UnityException: Creating asset at path Assets/TriLib/TriLibCore/Resources/TriLibSettings.asset failed.
+  at (wrapper managed-to-native) UnityEditor.AssetDatabase.CreateAsset(UnityEngine.Object,string)
+  at TriLibCore.TriLibSettings.GetTriLibPreferences () [0x00041] in /Users/vardnan/Documents/Development/5990_Project/5990_Project/Assets/TriLib/TriLibCore/Scripts/Misc/TriLibSettings.cs:40 
+  at TriLibCore.TriLibSettings.GetBool (System.String key) [0x00001] in /Users/vardnan/Documents/Development/5990_Project/5990_Project/Assets/TriLib/TriLibCore/Scripts/Misc/TriLibSettings.cs:64 
+  at TriLibCore.Editor.CheckMappers.Initialize () [0x00014] in /Users/vardnan/Documents/Development/5990_Project/5990_Project/Assets/TriLib/TriLibCore/Editor/Scripts/CheckMappers.cs:18 
+
+(Filename: Assets/TriLib/TriLibCore/Scripts/Misc/TriLibSettings.cs Line: 40)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  3.269 seconds
+Platform modules already initialized, skipping
+Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524294) extendedPlatform(0)
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.90 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3099 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 244.7 MB.
+System memory in use after: 244.8 MB.
+
+Unloading 54 unused Assets to reduce memory usage. Loaded Objects now: 3900.
+Total: 2.160542 ms (FindLiveObjects: 0.307333 ms CreateObjectMapping: 0.075000 ms MarkObjects: 1.645042 ms  DeleteObjects: 0.131667 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Import Request.
+  Time since last request: 27.041353 seconds.
+  path: Assets/Scripts/SwitchScene.cs
+  artifactKey: Guid(c74d905f3a94a4f0b868eae22d7bf3b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/SwitchScene.cs using Guid(c74d905f3a94a4f0b868eae22d7bf3b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '851203627615e1d9c9c269b7b7369f1f') in 0.010270 seconds
+  Import took 0.014874 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006350 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.14 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+CreateSerializedAsset is not supported while importing out-of-process
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+TriLibCore.TriLibSettings:GetTriLibPreferences () (at Assets/TriLib/TriLibCore/Scripts/Misc/TriLibSettings.cs:40)
+TriLibCore.TriLibSettings:GetBool (string) (at Assets/TriLib/TriLibCore/Scripts/Misc/TriLibSettings.cs:64)
+TriLibCore.Editor.CheckMappers:Initialize () (at Assets/TriLib/TriLibCore/Editor/Scripts/CheckMappers.cs:18)
+
+[Assets/TriLib/TriLibCore/Scripts/Misc/TriLibSettings.cs line 40]
+
+UnityException: Creating asset at path Assets/TriLib/TriLibCore/Resources/TriLibSettings.asset failed.
+  at (wrapper managed-to-native) UnityEditor.AssetDatabase.CreateAsset(UnityEngine.Object,string)
+  at TriLibCore.TriLibSettings.GetTriLibPreferences () [0x00041] in /Users/vardnan/Documents/Development/5990_Project/5990_Project/Assets/TriLib/TriLibCore/Scripts/Misc/TriLibSettings.cs:40 
+  at TriLibCore.TriLibSettings.GetBool (System.String key) [0x00001] in /Users/vardnan/Documents/Development/5990_Project/5990_Project/Assets/TriLib/TriLibCore/Scripts/Misc/TriLibSettings.cs:64 
+  at TriLibCore.Editor.CheckMappers.Initialize () [0x00014] in /Users/vardnan/Documents/Development/5990_Project/5990_Project/Assets/TriLib/TriLibCore/Editor/Scripts/CheckMappers.cs:18 
+
+(Filename: Assets/TriLib/TriLibCore/Scripts/Misc/TriLibSettings.cs Line: 40)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  2.988 seconds
+Platform modules already initialized, skipping
+Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524294) extendedPlatform(0)
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.91 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3099 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 244.9 MB.
+System memory in use after: 245.1 MB.
+
+Unloading 54 unused Assets to reduce memory usage. Loaded Objects now: 3905.
+Total: 2.078167 ms (FindLiveObjects: 0.307875 ms CreateObjectMapping: 0.073417 ms MarkObjects: 1.570083 ms  DeleteObjects: 0.117500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Import Request.
+  Time since last request: 131.919636 seconds.
+  path: Assets/Scripts/SwitchScene.cs
+  artifactKey: Guid(c74d905f3a94a4f0b868eae22d7bf3b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/SwitchScene.cs using Guid(c74d905f3a94a4f0b868eae22d7bf3b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27cd8cc5fc09424f7af495f6852de119') in 0.014346 seconds
+  Import took 0.019218 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008933 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.00 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+CreateSerializedAsset is not supported while importing out-of-process
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+TriLibCore.TriLibSettings:GetTriLibPreferences () (at Assets/TriLib/TriLibCore/Scripts/Misc/TriLibSettings.cs:40)
+TriLibCore.TriLibSettings:GetBool (string) (at Assets/TriLib/TriLibCore/Scripts/Misc/TriLibSettings.cs:64)
+TriLibCore.Editor.CheckMappers:Initialize () (at Assets/TriLib/TriLibCore/Editor/Scripts/CheckMappers.cs:18)
+
+[Assets/TriLib/TriLibCore/Scripts/Misc/TriLibSettings.cs line 40]
+
+UnityException: Creating asset at path Assets/TriLib/TriLibCore/Resources/TriLibSettings.asset failed.
+  at (wrapper managed-to-native) UnityEditor.AssetDatabase.CreateAsset(UnityEngine.Object,string)
+  at TriLibCore.TriLibSettings.GetTriLibPreferences () [0x00041] in /Users/vardnan/Documents/Development/5990_Project/5990_Project/Assets/TriLib/TriLibCore/Scripts/Misc/TriLibSettings.cs:40 
+  at TriLibCore.TriLibSettings.GetBool (System.String key) [0x00001] in /Users/vardnan/Documents/Development/5990_Project/5990_Project/Assets/TriLib/TriLibCore/Scripts/Misc/TriLibSettings.cs:64 
+  at TriLibCore.Editor.CheckMappers.Initialize () [0x00014] in /Users/vardnan/Documents/Development/5990_Project/5990_Project/Assets/TriLib/TriLibCore/Editor/Scripts/CheckMappers.cs:18 
+
+(Filename: Assets/TriLib/TriLibCore/Scripts/Misc/TriLibSettings.cs Line: 40)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  2.960 seconds
+Platform modules already initialized, skipping
+Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524294) extendedPlatform(0)
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.90 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3099 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 245.2 MB.
+System memory in use after: 245.4 MB.
+
+Unloading 54 unused Assets to reduce memory usage. Loaded Objects now: 3910.
+Total: 2.479459 ms (FindLiveObjects: 0.313416 ms CreateObjectMapping: 0.075500 ms MarkObjects: 1.949625 ms  DeleteObjects: 0.138625 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Import Request.
+  Time since last request: 48.816002 seconds.
+  path: Assets/Scripts/SwitchScene.cs
+  artifactKey: Guid(c74d905f3a94a4f0b868eae22d7bf3b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/SwitchScene.cs using Guid(c74d905f3a94a4f0b868eae22d7bf3b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f90b85ce1bb321abbcdb1dab9cd03fe') in 0.014477 seconds
+  Import took 0.019331 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.010759 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.95 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+CreateSerializedAsset is not supported while importing out-of-process
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+TriLibCore.TriLibSettings:GetTriLibPreferences () (at Assets/TriLib/TriLibCore/Scripts/Misc/TriLibSettings.cs:40)
+TriLibCore.TriLibSettings:GetBool (string) (at Assets/TriLib/TriLibCore/Scripts/Misc/TriLibSettings.cs:64)
+TriLibCore.Editor.CheckMappers:Initialize () (at Assets/TriLib/TriLibCore/Editor/Scripts/CheckMappers.cs:18)
+
+[Assets/TriLib/TriLibCore/Scripts/Misc/TriLibSettings.cs line 40]
+
+UnityException: Creating asset at path Assets/TriLib/TriLibCore/Resources/TriLibSettings.asset failed.
+  at (wrapper managed-to-native) UnityEditor.AssetDatabase.CreateAsset(UnityEngine.Object,string)
+  at TriLibCore.TriLibSettings.GetTriLibPreferences () [0x00041] in /Users/vardnan/Documents/Development/5990_Project/5990_Project/Assets/TriLib/TriLibCore/Scripts/Misc/TriLibSettings.cs:40 
+  at TriLibCore.TriLibSettings.GetBool (System.String key) [0x00001] in /Users/vardnan/Documents/Development/5990_Project/5990_Project/Assets/TriLib/TriLibCore/Scripts/Misc/TriLibSettings.cs:64 
+  at TriLibCore.Editor.CheckMappers.Initialize () [0x00014] in /Users/vardnan/Documents/Development/5990_Project/5990_Project/Assets/TriLib/TriLibCore/Editor/Scripts/CheckMappers.cs:18 
+
+(Filename: Assets/TriLib/TriLibCore/Scripts/Misc/TriLibSettings.cs Line: 40)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  2.786 seconds
+Platform modules already initialized, skipping
+Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524294) extendedPlatform(0)
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.90 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3099 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 245.5 MB.
+System memory in use after: 245.7 MB.
+
+Unloading 54 unused Assets to reduce memory usage. Loaded Objects now: 3915.
+Total: 2.065417 ms (FindLiveObjects: 0.277709 ms CreateObjectMapping: 0.072333 ms MarkObjects: 1.597917 ms  DeleteObjects: 0.116000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Import Request.
+  Time since last request: 99.946765 seconds.
+  path: Assets/Scenes/Home.unity
+  artifactKey: Guid(afdcb113ffd5a4353ad88f0dd03743af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Home.unity using Guid(afdcb113ffd5a4353ad88f0dd03743af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '476b94a0c730af1b3feefad493d8b2f6') in 0.022897 seconds
+  Import took 0.027385 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.723053 seconds.
+  path: Assets/Scenes/Kitchen.unity
+  artifactKey: Guid(42202b5d87da8472b9e01d2c5852f0e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Kitchen.unity using Guid(42202b5d87da8472b9e01d2c5852f0e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45f618d20f9a35412dde5b76d41a90e1') in 0.003265 seconds
+  Import took 0.009734 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.010718 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.30 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+CreateSerializedAsset is not supported while importing out-of-process
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+TriLibCore.TriLibSettings:GetTriLibPreferences () (at Assets/TriLib/TriLibCore/Scripts/Misc/TriLibSettings.cs:40)
+TriLibCore.TriLibSettings:GetBool (string) (at Assets/TriLib/TriLibCore/Scripts/Misc/TriLibSettings.cs:64)
+TriLibCore.Editor.CheckMappers:Initialize () (at Assets/TriLib/TriLibCore/Editor/Scripts/CheckMappers.cs:18)
+
+[Assets/TriLib/TriLibCore/Scripts/Misc/TriLibSettings.cs line 40]
+
+UnityException: Creating asset at path Assets/TriLib/TriLibCore/Resources/TriLibSettings.asset failed.
+  at (wrapper managed-to-native) UnityEditor.AssetDatabase.CreateAsset(UnityEngine.Object,string)
+  at TriLibCore.TriLibSettings.GetTriLibPreferences () [0x00041] in /Users/vardnan/Documents/Development/5990_Project/5990_Project/Assets/TriLib/TriLibCore/Scripts/Misc/TriLibSettings.cs:40 
+  at TriLibCore.TriLibSettings.GetBool (System.String key) [0x00001] in /Users/vardnan/Documents/Development/5990_Project/5990_Project/Assets/TriLib/TriLibCore/Scripts/Misc/TriLibSettings.cs:64 
+  at TriLibCore.Editor.CheckMappers.Initialize () [0x00014] in /Users/vardnan/Documents/Development/5990_Project/5990_Project/Assets/TriLib/TriLibCore/Editor/Scripts/CheckMappers.cs:18 
+
+(Filename: Assets/TriLib/TriLibCore/Scripts/Misc/TriLibSettings.cs Line: 40)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  3.207 seconds
+Platform modules already initialized, skipping
+Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524294) extendedPlatform(0)
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.91 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3098 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 245.8 MB.
+System memory in use after: 245.9 MB.
+
+Unloading 55 unused Assets to reduce memory usage. Loaded Objects now: 3919.
+Total: 2.225542 ms (FindLiveObjects: 0.396125 ms CreateObjectMapping: 0.078209 ms MarkObjects: 1.614833 ms  DeleteObjects: 0.135000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007052 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.01 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+CreateSerializedAsset is not supported while importing out-of-process
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+TriLibCore.TriLibSettings:GetTriLibPreferences () (at Assets/TriLib/TriLibCore/Scripts/Misc/TriLibSettings.cs:40)
+TriLibCore.TriLibSettings:GetBool (string) (at Assets/TriLib/TriLibCore/Scripts/Misc/TriLibSettings.cs:64)
+TriLibCore.Editor.CheckMappers:Initialize () (at Assets/TriLib/TriLibCore/Editor/Scripts/CheckMappers.cs:18)
+
+[Assets/TriLib/TriLibCore/Scripts/Misc/TriLibSettings.cs line 40]
+
+UnityException: Creating asset at path Assets/TriLib/TriLibCore/Resources/TriLibSettings.asset failed.
+  at (wrapper managed-to-native) UnityEditor.AssetDatabase.CreateAsset(UnityEngine.Object,string)
+  at TriLibCore.TriLibSettings.GetTriLibPreferences () [0x00041] in /Users/vardnan/Documents/Development/5990_Project/5990_Project/Assets/TriLib/TriLibCore/Scripts/Misc/TriLibSettings.cs:40 
+  at TriLibCore.TriLibSettings.GetBool (System.String key) [0x00001] in /Users/vardnan/Documents/Development/5990_Project/5990_Project/Assets/TriLib/TriLibCore/Scripts/Misc/TriLibSettings.cs:64 
+  at TriLibCore.Editor.CheckMappers.Initialize () [0x00014] in /Users/vardnan/Documents/Development/5990_Project/5990_Project/Assets/TriLib/TriLibCore/Editor/Scripts/CheckMappers.cs:18 
+
+(Filename: Assets/TriLib/TriLibCore/Scripts/Misc/TriLibSettings.cs Line: 40)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  2.767 seconds
+Platform modules already initialized, skipping
+Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524294) extendedPlatform(0)
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.93 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3098 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 246.0 MB.
+System memory in use after: 246.2 MB.
+
+Unloading 54 unused Assets to reduce memory usage. Loaded Objects now: 3924.
+Total: 2.096667 ms (FindLiveObjects: 0.288000 ms CreateObjectMapping: 0.072583 ms MarkObjects: 1.618333 ms  DeleteObjects: 0.115792 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.012409 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
@@ -111,33 +2007,25 @@ UnityException: Creating asset at path Assets/TriLib/TriLibCore/Resources/TriLib
 (Filename: Assets/TriLib/TriLibCore/Scripts/Misc/TriLibSettings.cs Line: 40)
 
 Mono: successfully reloaded assembly
-- Completed reload, in  2.674 seconds
+- Completed reload, in  2.840 seconds
 Platform modules already initialized, skipping
 Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524294) extendedPlatform(0)
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.87 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 1.18 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3095 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 224.1 MB.
-System memory in use after: 224.3 MB.
+Unloading 3098 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 246.3 MB.
+System memory in use after: 246.5 MB.
 
-Unloading 54 unused Assets to reduce memory usage. Loaded Objects now: 3667.
-Total: 1.955000 ms (FindLiveObjects: 0.267208 ms CreateObjectMapping: 0.072750 ms MarkObjects: 1.510125 ms  DeleteObjects: 0.101083 ms)
+Unloading 54 unused Assets to reduce memory usage. Loaded Objects now: 3929.
+Total: 3.005917 ms (FindLiveObjects: 0.533625 ms CreateObjectMapping: 0.095750 ms MarkObjects: 2.184916 ms  DeleteObjects: 0.189125 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
 ========================================================================
-Received Import Request.
-  Time since last request: 71.107423 seconds.
-  path: Assets/Scripts/TestLoader.cs
-  artifactKey: Guid(2d8d4c20f969f4e07b6b0c859c3c6ee0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/TestLoader.cs using Guid(2d8d4c20f969f4e07b6b0c859c3c6ee0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'acc43d6039fdc20e3795472fec187ed3') in 0.015701 seconds
-  Import took 0.020246 seconds .
-
-========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.006464 seconds.
+Registered in 0.009122 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
@@ -163,18 +2051,18 @@ UnityException: Creating asset at path Assets/TriLib/TriLibCore/Resources/TriLib
 (Filename: Assets/TriLib/TriLibCore/Scripts/Misc/TriLibSettings.cs Line: 40)
 
 Mono: successfully reloaded assembly
-- Completed reload, in  2.591 seconds
+- Completed reload, in  2.796 seconds
 Platform modules already initialized, skipping
 Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524294) extendedPlatform(0)
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.92 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 1.05 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3095 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 224.5 MB.
-System memory in use after: 224.6 MB.
+Unloading 3098 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 246.6 MB.
+System memory in use after: 246.7 MB.
 
-Unloading 54 unused Assets to reduce memory usage. Loaded Objects now: 3672.
-Total: 1.927167 ms (FindLiveObjects: 0.263125 ms CreateObjectMapping: 0.070542 ms MarkObjects: 1.481666 ms  DeleteObjects: 0.110542 ms)
+Unloading 54 unused Assets to reduce memory usage. Loaded Objects now: 3934.
+Total: 2.492000 ms (FindLiveObjects: 0.403708 ms CreateObjectMapping: 0.084334 ms MarkObjects: 1.849208 ms  DeleteObjects: 0.152250 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
