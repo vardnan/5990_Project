@@ -1,9 +1,10 @@
-﻿<Properties StartupConfiguration="{187DD7C3-903D-0406-ABC7-C3ADCF14CB99}|Unit Tests">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/SwitchScene.cs">
+﻿<Properties StartupConfiguration="{E0D0A6F7-F315-E6BA-DEC8-50A459A1C8F9}|">
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="7ace3c2d-9bee-44c6-9a4e-b31248ffa653" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/ScaleModel.cs">
     <Files>
-      <File FileName="Assets/Scripts/ScaleModel.cs" Line="1" Column="1" IsPinned="True" />
+      <File FileName="Assets/Scripts/ScaleModel.cs" Line="11" Column="9" IsPinned="True" />
       <File FileName="Assets/Scripts/Editor/CreateAssetBundles.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/TestLoader.cs" Line="25" Column="69" />
+      <File FileName="Assets/Scripts/TestLoader.cs" Line="1" Column="1" />
       <File FileName="Assets/TriLib/TriLibSamples/LoadModelFromURL/Scripts/LoadModelFromURLSample.cs" Line="12" Column="8" />
       <File FileName="Library/PackageCache/com.unity.xr.interaction.toolkit@1.0.0-pre.3/Editor/Interaction/Interactables/XRGrabInteractableEditor.cs" Line="2" Column="1" />
       <File FileName="Library/PackageCache/com.unity.xr.interaction.toolkit@1.0.0-pre.3/Runtime/Interaction/Interactables/XRGrabInteractable.cs" Line="2" Column="1" />
@@ -12,40 +13,12 @@
       <File FileName="Library/PackageCache/com.unity.xr.interaction.toolkit@1.0.0-pre.3/Runtime/Interaction/XRInteractionManager.cs" Line="4" Column="11" />
       <File FileName="Assets/_Course Library/Scripts/Actions/ChangeMaterial.cs" Line="1" Column="1" />
       <File FileName="Assets/_Course Library/Scripts/Actions/SwitchMaterial.cs" Line="19" Column="2" />
-      <File FileName="Assets/Scripts/ChangeScene.cs" Line="46" Column="2" />
-      <File FileName="Assets/Scripts/SwitchScene.cs" Line="15" Column="42" />
+      <File FileName="Assets/Scripts/SwitchScene.cs" Line="35" Column="95" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="5990_Project" expanded="True">
-            <Node name="Assembly-CSharp" expanded="True">
-              <Node name="Assets" expanded="True">
-                <Node name="_Course Library" expanded="True">
-                  <Node name="Scripts" expanded="True">
-                    <Node name="Actions" expanded="True" />
-                  </Node>
-                </Node>
-                <Node name="Scripts" expanded="True">
-                  <Node name="SwitchScene.cs" selected="True" />
-                </Node>
-                <Node name="TriLib" expanded="True">
-                  <Node name="TriLibSamples" expanded="True">
-                    <Node name="LoadModelFromURL" expanded="True">
-                      <Node name="Scripts" expanded="True" />
-                    </Node>
-                  </Node>
-                </Node>
-              </Node>
-            </Node>
-            <Node name="Assembly-CSharp-Editor" expanded="True">
-              <Node name="Assets" expanded="True">
-                <Node name="Scripts" expanded="True">
-                  <Node name="Editor" expanded="True" />
-                </Node>
-              </Node>
-            </Node>
-          </Node>
+          <Node name="5990_Project" expanded="True" selected="True" />
         </State>
       </Pad>
       <Pad Id="MonoDevelop.Debugger.WatchPad">
@@ -53,7 +26,7 @@
       </Pad>
       <Pad Id="MonoDevelop.UnitTesting.TestPad">
         <State name="__root__">
-          <Node name="5990_Project" expanded="True" selected="True" />
+          <Node name="Unity" selected="True" />
         </State>
       </Pad>
     </Pads>
