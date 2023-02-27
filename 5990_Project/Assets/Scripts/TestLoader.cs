@@ -5,8 +5,8 @@ using UnityEngine.XR.Interaction.Toolkit;
 
 public class TestLoader : MonoBehaviour
 {
-    // Lets the user load a new model by clicking a GUI button..
-    public string ModelURL = "https://drive.google.com/uc?export=download&id=1VDvssoTn5ZPizPFBktMuunCjX8tCJZ0s";
+    // Lets the user load a new model by clicking a GUI button.....
+    public string ModelURL = "https://drive.google.com/uc?export=download&id=1xbglMHX6La4i_lZ9EojLminQb0svTgkv";
 
     /// <summary>
     /// Creates the AssetLoaderOptions instance, configures the Web Request, and downloads the Model.
@@ -14,6 +14,8 @@ public class TestLoader : MonoBehaviour
     /// <remarks>
     /// You can create the AssetLoaderOptions by right clicking on the Assets Explorer and selecting "TriLib->Create->AssetLoaderOptions->Pre-Built AssetLoaderOptions".
     /// </remarks>
+    ///
+
     public void OnClick()
     {
         var assetLoaderOptions = AssetLoader.CreateDefaultLoaderOptions();
@@ -55,12 +57,13 @@ public class TestLoader : MonoBehaviour
         // You can make the GameObject visible again at this step if you prefer to.
         var myLoadedGameObject = assetLoaderContext.RootGameObject;
         myLoadedGameObject.SetActive(true);
-        myLoadedGameObject.transform.GetChild(0).gameObject.AddComponent<Rigidbody>();
-        myLoadedGameObject.transform.GetChild(0).gameObject.AddComponent<MeshRenderer>();
-        myLoadedGameObject.transform.GetChild(0).gameObject.AddComponent<MeshCollider>();
-        myLoadedGameObject.transform.GetChild(0).gameObject.GetComponent<MeshCollider>().convex = true;
-        myLoadedGameObject.transform.GetChild(0).gameObject.AddComponent(typeof(UnityEngine.XR.Interaction.Toolkit.XRGrabInteractable));
-        myLoadedGameObject.transform.GetChild(0).gameObject.transform.position = new Vector3(0, 2, 0);
+        myLoadedGameObject.transform.GetChild(0).gameObject.transform.GetChild(0).gameObject.AddComponent<MeshRenderer>();
+        myLoadedGameObject.transform.GetChild(0).gameObject.transform.GetChild(0).gameObject.AddComponent<MeshCollider>();
+        myLoadedGameObject.transform.GetChild(0).gameObject.transform.GetChild(0).gameObject.GetComponent<MeshCollider>().convex = true;
+        myLoadedGameObject.transform.GetChild(0).gameObject.transform.GetChild(0).gameObject.AddComponent<Rigidbody>();
+        //myLoadedGameObject.GetComponent<Rigidbody>().collisionDetectionMode = CollisionDetectionMode.ContinuousDynamic;
+        myLoadedGameObject.transform.GetChild(0).gameObject.transform.GetChild(0).gameObject.AddComponent(typeof(UnityEngine.XR.Interaction.Toolkit.XRGrabInteractable));
+        myLoadedGameObject.transform.GetChild(0).gameObject.transform.GetChild(0).gameObject.transform.position = new Vector3(0, 2, 0);
 
     }
 }

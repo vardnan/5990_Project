@@ -3,14 +3,8 @@ ScriptsOnlyBuild:
     Assembly-CSharp.dll:
     - PositionModel
     - ScaleModel
-    - SojaExiles.ClosetopencloseDoor
-    - SojaExiles.Drawer_Pull_X
-    - SojaExiles.OvenFlip
-    - SojaExiles.opencloseDoor
-    - SojaExiles.opencloseDoor1
     - SwitchMaterial
     - SwitchScene
-    - TableFlipL
     - TestLoader
     - TriLibCore.HDRP.Mappers.HDRPMaterialMapper
     - TriLibCore.Mappers.ByBonesRootBoneMapper
@@ -163,6 +157,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 81
       Script: {instanceID: 0}
+    - Class: 89
+      Script: {instanceID: 0}
     - Class: 104
       Script: {instanceID: 0}
     - Class: 108
@@ -184,143 +180,143 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 2002}
     - Class: 114
-      Script: {instanceID: 2168}
+      Script: {instanceID: 2166}
     - Class: 114
-      Script: {instanceID: 2316}
+      Script: {instanceID: 2314}
     - Class: 114
-      Script: {instanceID: 2332}
+      Script: {instanceID: 2330}
     - Class: 114
-      Script: {instanceID: 2496}
+      Script: {instanceID: 2494}
     - Class: 114
-      Script: {instanceID: 2690}
+      Script: {instanceID: 2686}
     - Class: 114
-      Script: {instanceID: 2806}
+      Script: {instanceID: 2802}
     - Class: 114
-      Script: {instanceID: 2830}
+      Script: {instanceID: 2826}
     - Class: 114
-      Script: {instanceID: 2872}
+      Script: {instanceID: 2868}
     - Class: 114
-      Script: {instanceID: 3060}
+      Script: {instanceID: 3054}
     - Class: 114
-      Script: {instanceID: 3616}
+      Script: {instanceID: 3610}
     - Class: 114
-      Script: {instanceID: 3694}
+      Script: {instanceID: 3688}
     - Class: 114
-      Script: {instanceID: 3764}
+      Script: {instanceID: 3758}
     - Class: 114
-      Script: {instanceID: 3786}
+      Script: {instanceID: 3780}
     - Class: 114
-      Script: {instanceID: 3858}
+      Script: {instanceID: 3850}
     - Class: 114
-      Script: {instanceID: 3992}
+      Script: {instanceID: 3982}
     - Class: 114
-      Script: {instanceID: 4128}
+      Script: {instanceID: 4118}
     - Class: 114
-      Script: {instanceID: 4180}
+      Script: {instanceID: 4170}
     - Class: 114
-      Script: {instanceID: 4262}
+      Script: {instanceID: 4252}
     - Class: 114
-      Script: {instanceID: 4406}
+      Script: {instanceID: 4396}
     - Class: 114
-      Script: {instanceID: 4474}
+      Script: {instanceID: 4462}
     - Class: 114
-      Script: {instanceID: 4488}
+      Script: {instanceID: 4476}
     - Class: 114
-      Script: {instanceID: 4630}
+      Script: {instanceID: 4618}
     - Class: 114
-      Script: {instanceID: 4766}
+      Script: {instanceID: 4754}
     - Class: 114
-      Script: {instanceID: 4784}
+      Script: {instanceID: 4772}
     - Class: 114
-      Script: {instanceID: 4942}
+      Script: {instanceID: 4930}
     - Class: 114
-      Script: {instanceID: 5074}
+      Script: {instanceID: 5062}
     - Class: 114
-      Script: {instanceID: 5090}
+      Script: {instanceID: 5078}
     - Class: 114
-      Script: {instanceID: 5534}
+      Script: {instanceID: 5520}
     - Class: 114
-      Script: {instanceID: 5866}
+      Script: {instanceID: 5852}
     - Class: 114
-      Script: {instanceID: 5878}
+      Script: {instanceID: 5864}
     - Class: 114
-      Script: {instanceID: 5900}
+      Script: {instanceID: 5886}
     - Class: 114
-      Script: {instanceID: 5956}
+      Script: {instanceID: 5942}
     - Class: 114
-      Script: {instanceID: 5968}
+      Script: {instanceID: 5954}
     - Class: 114
-      Script: {instanceID: 6188}
+      Script: {instanceID: 6174}
     - Class: 114
-      Script: {instanceID: 6190}
+      Script: {instanceID: 6176}
     - Class: 114
-      Script: {instanceID: 6226}
+      Script: {instanceID: 6212}
     - Class: 114
-      Script: {instanceID: 6386}
+      Script: {instanceID: 6372}
     - Class: 114
-      Script: {instanceID: 6496}
+      Script: {instanceID: 6482}
     - Class: 114
-      Script: {instanceID: 6500}
+      Script: {instanceID: 6486}
     - Class: 114
-      Script: {instanceID: 6614}
+      Script: {instanceID: 6600}
     - Class: 114
-      Script: {instanceID: 6726}
+      Script: {instanceID: 6712}
     - Class: 114
-      Script: {instanceID: 6736}
+      Script: {instanceID: 6722}
     - Class: 114
-      Script: {instanceID: 6758}
+      Script: {instanceID: 6744}
     - Class: 114
-      Script: {instanceID: 6770}
+      Script: {instanceID: 6756}
     - Class: 114
-      Script: {instanceID: 6838}
+      Script: {instanceID: 6820}
     - Class: 114
-      Script: {instanceID: 6844}
+      Script: {instanceID: 6826}
     - Class: 114
-      Script: {instanceID: 6964}
+      Script: {instanceID: 6946}
     - Class: 114
-      Script: {instanceID: 7006}
+      Script: {instanceID: 6988}
     - Class: 114
-      Script: {instanceID: 7054}
+      Script: {instanceID: 7036}
     - Class: 114
-      Script: {instanceID: 7064}
+      Script: {instanceID: 7046}
     - Class: 114
-      Script: {instanceID: 7150}
+      Script: {instanceID: 7132}
     - Class: 114
-      Script: {instanceID: 7268}
+      Script: {instanceID: 7248}
     - Class: 114
-      Script: {instanceID: 7420}
+      Script: {instanceID: 7398}
     - Class: 114
-      Script: {instanceID: 7546}
+      Script: {instanceID: 7520}
     - Class: 114
-      Script: {instanceID: 7566}
+      Script: {instanceID: 7540}
     - Class: 114
-      Script: {instanceID: 7584}
+      Script: {instanceID: 7558}
     - Class: 114
-      Script: {instanceID: 7622}
+      Script: {instanceID: 7596}
     - Class: 114
-      Script: {instanceID: 7768}
+      Script: {instanceID: 7740}
     - Class: 114
-      Script: {instanceID: 7834}
+      Script: {instanceID: 7806}
     - Class: 114
-      Script: {instanceID: 8040}
+      Script: {instanceID: 8012}
     - Class: 114
-      Script: {instanceID: 8362}
+      Script: {instanceID: 8332}
     - Class: 114
-      Script: {instanceID: 8596}
+      Script: {instanceID: 8564}
     - Class: 114
-      Script: {instanceID: 8654}
+      Script: {instanceID: 8620}
     - Class: 114
-      Script: {instanceID: 8700}
+      Script: {instanceID: 8666}
     - Class: 114
-      Script: {instanceID: 8706}
+      Script: {instanceID: 8672}
     - Class: 114
-      Script: {instanceID: 8884}
+      Script: {instanceID: 8848}
     - Class: 114
-      Script: {instanceID: 8906}
+      Script: {instanceID: 8868}
     - Class: 114
-      Script: {instanceID: 8978}
+      Script: {instanceID: 8940}
     - Class: 114
-      Script: {instanceID: 9024}
+      Script: {instanceID: 8986}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 120
@@ -364,13 +360,9 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 65
       Script: {instanceID: 0}
-    - Class: 74
-      Script: {instanceID: 0}
     - Class: 81
       Script: {instanceID: 0}
-    - Class: 91
-      Script: {instanceID: 0}
-    - Class: 95
+    - Class: 89
       Script: {instanceID: 0}
     - Class: 104
       Script: {instanceID: 0}
@@ -385,67 +377,55 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1838}
     - Class: 114
-      Script: {instanceID: 2168}
+      Script: {instanceID: 2166}
     - Class: 114
-      Script: {instanceID: 2316}
+      Script: {instanceID: 2314}
     - Class: 114
-      Script: {instanceID: 2332}
+      Script: {instanceID: 2330}
     - Class: 114
-      Script: {instanceID: 2872}
+      Script: {instanceID: 2868}
     - Class: 114
-      Script: {instanceID: 2928}
+      Script: {instanceID: 3054}
     - Class: 114
-      Script: {instanceID: 3060}
+      Script: {instanceID: 3610}
     - Class: 114
-      Script: {instanceID: 3616}
+      Script: {instanceID: 3688}
     - Class: 114
-      Script: {instanceID: 3694}
+      Script: {instanceID: 4170}
     - Class: 114
-      Script: {instanceID: 3896}
+      Script: {instanceID: 4252}
     - Class: 114
-      Script: {instanceID: 4180}
+      Script: {instanceID: 4396}
     - Class: 114
-      Script: {instanceID: 4262}
+      Script: {instanceID: 4462}
     - Class: 114
-      Script: {instanceID: 4406}
+      Script: {instanceID: 4772}
     - Class: 114
-      Script: {instanceID: 4474}
+      Script: {instanceID: 5062}
     - Class: 114
-      Script: {instanceID: 4784}
+      Script: {instanceID: 5520}
     - Class: 114
-      Script: {instanceID: 5074}
+      Script: {instanceID: 5544}
     - Class: 114
-      Script: {instanceID: 5534}
+      Script: {instanceID: 5852}
     - Class: 114
-      Script: {instanceID: 5558}
+      Script: {instanceID: 5942}
     - Class: 114
-      Script: {instanceID: 5866}
+      Script: {instanceID: 6486}
     - Class: 114
-      Script: {instanceID: 5956}
+      Script: {instanceID: 6600}
     - Class: 114
-      Script: {instanceID: 6500}
+      Script: {instanceID: 6722}
     - Class: 114
-      Script: {instanceID: 6614}
+      Script: {instanceID: 6756}
     - Class: 114
-      Script: {instanceID: 6736}
+      Script: {instanceID: 7046}
     - Class: 114
-      Script: {instanceID: 6770}
+      Script: {instanceID: 7558}
     - Class: 114
-      Script: {instanceID: 7064}
+      Script: {instanceID: 8620}
     - Class: 114
-      Script: {instanceID: 7254}
-    - Class: 114
-      Script: {instanceID: 7464}
-    - Class: 114
-      Script: {instanceID: 7584}
-    - Class: 114
-      Script: {instanceID: 8298}
-    - Class: 114
-      Script: {instanceID: 8654}
-    - Class: 114
-      Script: {instanceID: 8818}
-    - Class: 114
-      Script: {instanceID: 8906}
+      Script: {instanceID: 8868}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 120
@@ -456,13 +436,9 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 196
       Script: {instanceID: 0}
-    - Class: 198
-      Script: {instanceID: 0}
-    - Class: 199
-      Script: {instanceID: 0}
     - Class: 213
       Script: {instanceID: 0}
-    - Class: 215
+    - Class: 220
       Script: {instanceID: 0}
     - Class: 222
       Script: {instanceID: 0}
@@ -597,12 +573,6 @@ ScriptsOnlyBuild:
     assemblyName: Unity.RenderPipelines.Universal.Runtime.dll
     namespaceName: UnityEngine.Rendering.Universal
     className: ScreenSpaceAmbientOcclusion
-  - hash:
-      serializedVersion: 2
-      Hash: bd61762216a93ae9d04ab5ca01dfb653
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: SojaExiles
-    className: PlayerMovement
   - hash:
       serializedVersion: 2
       Hash: 6bc76e17f0d5e93f3eea7f5a2fe227f3
@@ -761,12 +731,6 @@ ScriptsOnlyBuild:
     className: RawImage
   - hash:
       serializedVersion: 2
-      Hash: 6cfbe3f38b16b3f621af8a711bece725
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: SojaExiles
-    className: Drawer_Pull_Zopp
-  - hash:
-      serializedVersion: 2
       Hash: 5e1eefcd5106de6c2e85908a3b2d3f04
     assemblyName: Unity.RenderPipelines.Core.Runtime.dll
     namespaceName: UnityEngine.Rendering.UI
@@ -831,12 +795,6 @@ ScriptsOnlyBuild:
     assemblyName: Unity.RenderPipelines.Universal.Runtime.dll
     namespaceName: UnityEngine.Rendering.Universal
     className: XRSystemData
-  - hash:
-      serializedVersion: 2
-      Hash: 1264318873c977ce783e3cc8dc561d16
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: SojaExiles
-    className: Drawer_Pull_X
   - hash:
       serializedVersion: 2
       Hash: 4d3138931ce8c45c9b60e2c0f0779176
@@ -1049,12 +1007,6 @@ ScriptsOnlyBuild:
     className: DebugUIHandlerEnumField
   - hash:
       serializedVersion: 2
-      Hash: 88095e22d9e4be3b7e57d4eda7bef234
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: SojaExiles
-    className: opencloseSlide
-  - hash:
-      serializedVersion: 2
       Hash: 8aa3d6ccbcb54ee8db6c1229854adaaa
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
@@ -1077,12 +1029,6 @@ ScriptsOnlyBuild:
     assemblyName: Unity.RenderPipelines.Core.Runtime.dll
     namespaceName: UnityEngine.Rendering.UI
     className: DebugUIHandlerContainer
-  - hash:
-      serializedVersion: 2
-      Hash: 62db304807e6a68e2beea73346753688
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: SojaExiles
-    className: OvenFlip
   - hash:
       serializedVersion: 2
       Hash: 1d09746b5b1bdae5cc8fdf856e621d3b
@@ -1221,12 +1167,6 @@ ScriptsOnlyBuild:
     assemblyName: Unity.XR.Interaction.Toolkit.dll
     namespaceName: UnityEngine.XR.Interaction.Toolkit
     className: TeleportationProvider
-  - hash:
-      serializedVersion: 2
-      Hash: a8bad63dc38d5729e38889649e4ee034
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: SojaExiles
-    className: opencloseStallDoor
   - hash:
       serializedVersion: 2
       Hash: cd0ecdca0166232906c6f2df9dddc3d3
@@ -1545,12 +1485,6 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: SetMaterialColor
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: SojaExiles
-    className: Quitgame
   - hash:
       serializedVersion: 2
       Hash: d5630f96bd5a6a6eed7e1754c3fb8703
@@ -1925,18 +1859,6 @@ ScriptsOnlyBuild:
     className: OnButtonPress
   - hash:
       serializedVersion: 2
-      Hash: 6cfbe3f38b16b3f621af8a711bece725
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: SojaExiles
-    className: Drawer_Pull_Z
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: SojaExiles
-    className: SceneSwitchGen
-  - hash:
-      serializedVersion: 2
       Hash: 1f0602e7bad1e0a9cba31ce292eee8bb
     assemblyName: Unity.RenderPipelines.Core.Runtime.dll
     namespaceName: UnityEngine.Rendering.UI
@@ -2099,12 +2021,6 @@ ScriptsOnlyBuild:
     className: AssetLoaderFilePicker
   - hash:
       serializedVersion: 2
-      Hash: 469d3bc243d3bef31800dda6d35c21a0
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: SojaExiles
-    className: ClosetopencloseDoor
-  - hash:
-      serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Unity.RenderPipelines.Core.Runtime.dll
     namespaceName: UnityEngine.Rendering
@@ -2115,12 +2031,6 @@ ScriptsOnlyBuild:
     assemblyName: Unity.RenderPipelines.Core.Runtime.dll
     namespaceName: UnityEngine.Rendering.UI
     className: DebugUIHandlerCanvas
-  - hash:
-      serializedVersion: 2
-      Hash: 63f6fe26b936eaf2921883855e4e2dad
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: TableFlipR
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -2183,22 +2093,10 @@ ScriptsOnlyBuild:
     className: DownloadableSample
   - hash:
       serializedVersion: 2
-      Hash: a8bad63dc38d5729e38889649e4ee034
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: SojaExiles
-    className: opencloseDoor
-  - hash:
-      serializedVersion: 2
       Hash: dbeab19c836bd50c0a0e371615445b64
     assemblyName: Unity.RenderPipelines.Universal.Runtime.dll
     namespaceName: UnityEngine.Rendering.Universal
     className: FilmGrain
-  - hash:
-      serializedVersion: 2
-      Hash: ad4687a9dff8afd640d5f0082a5171d5
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: SojaExiles
-    className: MouseLook
   - hash:
       serializedVersion: 2
       Hash: c2c69f9b9053f8291b360c082a9bc2ac
@@ -2265,12 +2163,6 @@ ScriptsOnlyBuild:
     assemblyName: Unity.XR.Interaction.Toolkit.dll
     namespaceName: UnityEngine.XR.Interaction.Toolkit
     className: XRControllerRecording
-  - hash:
-      serializedVersion: 2
-      Hash: 88095e22d9e4be3b7e57d4eda7bef234
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: SojaExiles
-    className: opencloseWindow
   - hash:
       serializedVersion: 2
       Hash: 3133c02f198ba0c86cfd11ed1815586c
@@ -2411,12 +2303,6 @@ ScriptsOnlyBuild:
     className: ControlTrack
   - hash:
       serializedVersion: 2
-      Hash: 1f75f7ef1e894cbb2b08245adb2907fb
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: SojaExiles
-    className: opencloseDoor1
-  - hash:
-      serializedVersion: 2
       Hash: 38bcb4d3f9a1812fd650f92e87a4cf64
     assemblyName: Unity.Postprocessing.Runtime.dll
     namespaceName: UnityEngine.Rendering.PostProcessing
@@ -2445,12 +2331,6 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
     className: ScrollRect
-  - hash:
-      serializedVersion: 2
-      Hash: 88095e22d9e4be3b7e57d4eda7bef234
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: SojaExiles
-    className: opencloseWindowApt
   - hash:
       serializedVersion: 2
       Hash: 6147dd74864568afaacf44be0259e40c
@@ -2487,12 +2367,6 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: TriLibCore.Mappers
     className: SimpleAnimationPlayerAnimationClipMapper
-  - hash:
-      serializedVersion: 2
-      Hash: a8bad63dc38d5729e38889649e4ee034
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: SojaExiles
-    className: BRGlassDoor
   - hash:
       serializedVersion: 2
       Hash: c1f5356fcd27668ddc25078e27f9828d
@@ -2573,12 +2447,6 @@ ScriptsOnlyBuild:
     className: ForwardRendererData
   - hash:
       serializedVersion: 2
-      Hash: ca5252d6deaf2d103466dcbfc329b978
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: TableFlipL
-  - hash:
-      serializedVersion: 2
       Hash: e7a73f5f78ba6445195ec23b74a1ce2d
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
@@ -2595,12 +2463,6 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: TriLibCore.Mappers
     className: ByNameRootBoneMapper
-  - hash:
-      serializedVersion: 2
-      Hash: 1ce6f757bda026ce273c4a348afe5c9a
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: SojaExiles
-    className: opencloseWindow1
   - hash:
       serializedVersion: 2
       Hash: cef7651ddeb949eae74c2a92489f07e5

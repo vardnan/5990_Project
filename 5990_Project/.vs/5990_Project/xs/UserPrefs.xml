@@ -2,19 +2,18 @@
   <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="7ace3c2d-9bee-44c6-9a4e-b31248ffa653" />
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/PositionModel.cs">
     <Files>
-      <File FileName="Assets/Scripts/ScaleModel.cs" Line="11" Column="9" IsPinned="True" />
+      <File FileName="Assets/Scripts/ScaleModel.cs" Line="14" Column="1" IsPinned="True" />
       <File FileName="Assets/Scripts/Editor/CreateAssetBundles.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/TestLoader.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/TestLoader.cs" Line="58" Column="68" />
       <File FileName="Assets/TriLib/TriLibSamples/LoadModelFromURL/Scripts/LoadModelFromURLSample.cs" Line="12" Column="8" />
       <File FileName="Library/PackageCache/com.unity.xr.interaction.toolkit@1.0.0-pre.3/Editor/Interaction/Interactables/XRGrabInteractableEditor.cs" Line="2" Column="1" />
       <File FileName="Library/PackageCache/com.unity.xr.interaction.toolkit@1.0.0-pre.3/Runtime/Interaction/Interactables/XRGrabInteractable.cs" Line="2" Column="1" />
       <File FileName="Assets/_Course Library/Scripts/Actions/PlayContinuousSound.cs" Line="21" Column="1" />
       <File FileName="Library/PackageCache/com.unity.xr.interaction.toolkit@1.0.0-pre.3/Runtime/Interaction/Interactors/XRRayInteractor.cs" Line="1426" Column="1" />
       <File FileName="Library/PackageCache/com.unity.xr.interaction.toolkit@1.0.0-pre.3/Runtime/Interaction/XRInteractionManager.cs" Line="4" Column="11" />
-      <File FileName="Assets/_Course Library/Scripts/Actions/ChangeMaterial.cs" Line="1" Column="1" />
-      <File FileName="Assets/_Course Library/Scripts/Actions/SwitchMaterial.cs" Line="19" Column="2" />
-      <File FileName="Assets/Scripts/SwitchScene.cs" Line="36" Column="37" />
-      <File FileName="Assets/Scripts/PositionModel.cs" Line="13" Column="4" />
+      <File FileName="Assets/_Course Library/Scripts/Actions/ChangeMaterial.cs" Line="8" Column="50" />
+      <File FileName="Assets/Scripts/SwitchScene.cs" Line="20" Column="37" />
+      <File FileName="Assets/Scripts/PositionModel.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">

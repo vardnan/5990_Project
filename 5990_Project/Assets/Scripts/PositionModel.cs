@@ -8,6 +8,7 @@ public class PositionModel : MonoBehaviour
 
     void Start()
     {
-        GameObject.Find("1").transform.GetChild(0).gameObject.transform.position = new Vector3(11.23f, 0.15f, 0.78f);
+        //GameObject.Find("1").transform.GetChild(0).gameObject.transform.GetChild(0).gameObject.transform.position = new Vector3(0.114f, 7.1f, 0.252f);
+        GameObject.Find("1").transform.GetChild(0).gameObject.transform.position = new Vector3(0.293f, 0.5f, -6.7f);
     }
 }

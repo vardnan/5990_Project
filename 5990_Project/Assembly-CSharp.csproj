@@ -63,7 +63,7 @@
     <Compile Include="Assets/TriLib/TriLibSamples/AvatarLoader/Scripts/AvatarLoader.cs" />
     <Compile Include="Assets/_Course Library/Scripts/Controls/XRSlider.cs" />
     <Compile Include="Assets/_Course Library/Scripts/Testing/Notes.cs" />
-    <Compile Include="Assets/_Course Library/Scripts/Actions/SwitchMaterial.cs" />
+    <Compile Include="Assets/Scripts/SwitchMaterial.cs" />
     <Compile Include="Assets/TriLib/TriLibCore/Scripts/Mappers/ZipFileExternalDataMapper.cs" />
     <Compile Include="Assets/TriLib/TriLibCore/Scripts/Misc/RuntimeInitialization.cs" />
     <Compile Include="Assets/_Course Library/Scripts/Conditions/OnPull.cs" />
