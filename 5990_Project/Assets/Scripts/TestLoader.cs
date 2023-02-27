@@ -5,7 +5,7 @@ using UnityEngine.XR.Interaction.Toolkit;
 
 public class TestLoader : MonoBehaviour
 {
-    // Lets the user load a new model by clicking a GUI button.
+    // Lets the user load a new model by clicking a GUI button..
     public string ModelURL = "https://drive.google.com/uc?export=download&id=1VDvssoTn5ZPizPFBktMuunCjX8tCJZ0s";
 
     /// <summary>

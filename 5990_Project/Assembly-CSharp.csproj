@@ -59,7 +59,6 @@
     <Compile Include="Assets/TriLib/TriLibSamples/LoadModelFromStream/Mappers/ExternalDataMapperSample.cs" />
     <Compile Include="Assets/_Course Library/Scripts/Actions/SetParticleRate.cs" />
     <Compile Include="Assets/TriLib/TriLibCore/Scripts/Playables/SimpleAnimationPlayer.cs" />
-    <Compile Include="Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/First Person Player/PlayerMovement.cs" />
     <Compile Include="Assets/_Course Library/Scripts/Actions/SetLightColor.cs" />
     <Compile Include="Assets/TriLib/TriLibSamples/AvatarLoader/Scripts/AvatarLoader.cs" />
     <Compile Include="Assets/_Course Library/Scripts/Controls/XRSlider.cs" />
@@ -71,12 +70,10 @@
     <Compile Include="Assets/_Course Library/Scripts/Actions/SpawnFromList.cs" />
     <Compile Include="Assets/_Course Library/Scripts/Controls/XRJoystick.cs" />
     <Compile Include="Assets/TriLib/TriLibStandaloneFileBrowser/StandaloneFileBrowser/StandaloneFileBrowserWindows.cs" />
-    <Compile Include="Assets/Brick Project Studio/Apartment Kit/Common/Scripts &amp; Animation/Z Axis -1/Drawer_Pull_Zopp.cs" />
     <Compile Include="Assets/TriLib/TriLibSamples/UserPropertiesLoading/Scripts/UserPropertiesLoadingSample.cs" />
     <Compile Include="Assets/TriLib/TriLibStandaloneFileBrowser/StandaloneFileBrowser/IStandaloneFileBrowser.cs" />
     <Compile Include="Assets/TriLib/TriLibCore/Scripts/Mappers/ByBonesRootBoneMapper.cs" />
     <Compile Include="Assets/_Course Library/Scripts/Actions/RotateObject.cs" />
-    <Compile Include="Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Drawer/X Axis/Drawer_Pull_X.cs" />
     <Compile Include="Assets/TriLib/TriLibSamples/LoadModelFromFilePicker/Scripts/LoadModelFromFilePickerSample.cs" />
     <Compile Include="Assets/_Course Library/Scripts/Actions/MoveWithVelocity.cs" />
     <Compile Include="Assets/TriLib/TriLibSamples/LoadModelFromStream/Scripts/LoadModelFromStreamSample.cs" />
@@ -94,8 +91,6 @@
     <Compile Include="Assets/TriLib/TriLibSamples/Common/Scripts/ShowSkeleton.cs" />
     <Compile Include="Assets/TriLib/TriLibSamples/AssetViewer/Scripts/PointCloudRenderer/PointCloudRenderer.cs" />
     <Compile Include="Assets/_Course Library/Scripts/Testing/DisplayFPS.cs" />
-    <Compile Include="Assets/Brick Project Studio/Apartment Kit/Common/Scripts &amp; Animation/Slide/opencloseSlide.cs" />
-    <Compile Include="Assets/Brick Project Studio/Apartment Kit/Common/Scripts &amp; Animation/OvenOpen/OvenFlip.cs" />
     <Compile Include="Assets/TriLib/TriLibCore/Scripts/CustomContextData/ZipLoadCustomContextData.cs" />
     <Compile Include="Assets/_Course Library/Scripts/Actions/FadeCanvasOnOverlap.cs" />
     <Compile Include="Assets/_Course Library/Scripts/Actions/ToggleVisibility.cs" />
@@ -105,7 +100,6 @@
     <Compile Include="Assets/Scripts/TestLoader.cs" />
     <Compile Include="Assets/TriLib/TriLibSamples/LoadExtraAnimations/Scripts/LoadExtraAnimationsSample.cs" />
     <Compile Include="Assets/_Course Library/Scripts/Actions/LookAtPlayer.cs" />
-    <Compile Include="Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Doors/opencloseStallDoor.cs" />
     <Compile Include="Assets/_Course Library/Scripts/Actions/RemoveObjectsWithTag.cs" />
     <Compile Include="Assets/TriLib/TriLibCore/Scripts/Utils/GraphicsSettingsUtils.cs" />
     <Compile Include="Assets/_Course Library/Scripts/Actions/SetLightIntensity.cs" />
@@ -118,8 +112,8 @@
     <Compile Include="Assets/_Course Library/Scripts/Actions/CreateTrail.cs" />
     <Compile Include="Assets/_Course Library/Scripts/Conditions/OnTilt.cs" />
     <Compile Include="Assets/_Course Library/Scripts/Actions/SetMaterialColor.cs" />
-    <Compile Include="Assets/Brick Project Studio/Apartment Kit/Scenes/Quitgame.cs" />
     <Compile Include="Assets/_Course Library/Scripts/Actions/ToggleParticle.cs" />
+    <Compile Include="Assets/Scripts/PositionModel.cs" />
     <Compile Include="Assets/TriLib/TriLibCore/Scripts/Mappers/LipSyncMapping.cs" />
     <Compile Include="Assets/_Course Library/Scripts/Conditions/OnTimedInterval.cs" />
     <Compile Include="Assets/TriLib/TriLibCore/Scripts/Misc/AssetUnloader.cs" />
@@ -143,8 +137,6 @@
     <Compile Include="Assets/_Course Library/Scripts/Actions/LoadScene.cs" />
     <Compile Include="Assets/_Course Library/Scripts/Conditions/OnButtonPress.cs" />
     <Compile Include="Assets/TriLib/TriLibStandaloneFileBrowser/StandaloneFileBrowser/ItemWithStream.cs" />
-    <Compile Include="Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Drawer/Z Axis/Drawer_Pull_Z.cs" />
-    <Compile Include="Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/First Person Player/SceneSwitchGen.cs" />
     <Compile Include="Assets/TriLib/TriLibCore/Scripts/Contexts/DataArrayCreationContext.cs" />
     <Compile Include="Assets/_Course Library/Scripts/Actions/ToggleLight.cs" />
     <Compile Include="Assets/TriLib/TriLibSamples/Common/Scripts/AssetViewerBase.cs" />
@@ -157,18 +149,13 @@
     <Compile Include="Assets/_Course Library/Scripts/Actions/ToggleRay.cs" />
     <Compile Include="Assets/TriLib/TriLibCore/Scripts/Mappers/AnimatorOverrideAnimationClipMapper.cs" />
     <Compile Include="Assets/TriLib/TriLibStandaloneFileBrowser/StandaloneFileBrowser/TriLib/AssetLoaderFilePicker.cs" />
-    <Compile Include="Assets/Brick Project Studio/Apartment Kit/Common/Scripts &amp; Animation/Closet/ClosetopencloseDoor.cs" />
-    <Compile Include="Assets/Brick Project Studio/Apartment Kit/Common/Scripts &amp; Animation/TableFlip/TableFlipR.cs" />
     <Compile Include="Assets/TriLib/TriLibSamples/LoadModelFromStream/Mappers/TextureMapperSample.cs" />
     <Compile Include="Assets/TriLib/TriLibStandaloneFileBrowser/StandaloneFileBrowser/StandaloneFileBrowserLinux.cs" />
     <Compile Include="Assets/TriLib/TriLibSamples/AssetViewer/Scripts/RuntimeProcessUtils.cs" />
-    <Compile Include="Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Doors/opencloseDoor.cs" />
     <Compile Include="Assets/TriLib/TriLibCore/Scripts/AssetLoaders/MultipleAssetLoaderZip.cs" />
-    <Compile Include="Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/First Person Player/MouseLook.cs" />
     <Compile Include="Assets/TriLib/TriLibSamples/Common/Scripts/PasteManager.cs" />
     <Compile Include="Assets/TriLib/TriLibCore/Scripts/Mappers/ByNameAnimatorOverrideAnimationClipMapper.cs" />
     <Compile Include="Assets/TriLib/TriLibCore/Scripts/AssetLoaders/AssetLoader.cs" />
-    <Compile Include="Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Windows/opencloseWindow.cs" />
     <Compile Include="Assets/TriLib/TriLibHDRP/Scripts/Mappers/HDRPMaterialMapper.cs" />
     <Compile Include="Assets/_Course Library/Scripts/Controls/XRKnob.cs" />
     <Compile Include="Assets/TriLib/TriLibCore/Scripts/Mappers/LegacyToHumanoidAnimationClipMapper.cs" />
@@ -180,22 +167,17 @@
     <Compile Include="Assets/TriLib/TriLibSamples/UserPropertiesLoading/Scripts/SampleUserPropertiesMapper.cs" />
     <Compile Include="Assets/TriLib/TriLibCore/Scripts/Misc/TriLibReaders.cs" />
     <Compile Include="Assets/_Course Library/Scripts/Actions/PlayVideo.cs" />
-    <Compile Include="Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Doors/opencloseDoor1.cs" />
     <Compile Include="Assets/_Course Library/Scripts/Actions/PlayQuickSound.cs" />
     <Compile Include="Assets/TriLib/TriLibCore/Scripts/AssetLoaders/AssetLoaderZip.cs" />
-    <Compile Include="Assets/Brick Project Studio/Apartment Kit/Common/Scripts &amp; Animation/Windows/opencloseWindowApt.cs" />
     <Compile Include="Assets/_Course Library/Scripts/Actions/ConvertValueToHue.cs" />
     <Compile Include="Assets/TriLib/TriLibStandaloneFileBrowser/StandaloneFileBrowser/TriLib/Mappers/FilePickerTextureMapper.cs" />
     <Compile Include="Assets/TriLib/TriLibSamples/Common/Scripts/FixMaterials.cs" />
     <Compile Include="Assets/TriLib/TriLibCore/Scripts/Mappers/SimpleAnimationPlayerAnimationClipMapper.cs" />
-    <Compile Include="Assets/Brick Project Studio/Apartment Kit/Common/Scripts &amp; Animation/Slide/BRGlassDoor.cs" />
     <Compile Include="Assets/_Course Library/Scripts/Actions/StickToObject.cs" />
     <Compile Include="Assets/TriLib/TriLibCore/Scripts/Misc/TriLibSettings.cs" />
     <Compile Include="Assets/TriLib/TriLibSamples/SimpleCustomAssetLoader/Scripts/SimpleCustomLoaderSample.cs" />
     <Compile Include="Assets/TriLib/TriLibSamples/ListModelResources/Scripts/ListModelResourcesSample.cs" />
-    <Compile Include="Assets/Brick Project Studio/Apartment Kit/Common/Scripts &amp; Animation/TableFlip/TableFlipL.cs" />
     <Compile Include="Assets/TriLib/TriLibCore/Scripts/Mappers/ByNameRootBoneMapper.cs" />
-    <Compile Include="Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Windows/opencloseWindow1.cs" />
     <Compile Include="Assets/_Course Library/Scripts/Actions/PlayContinuousSound.cs" />
     <Compile Include="Assets/TriLib/TriLibStandaloneFileBrowser/StandaloneFileBrowser/StandaloneFileBrowserWebGL.cs" />
     <Compile Include="Assets/TriLib/TriLibSamples/LoadModelFromFile/Scripts/LoadModelFromFileSample.cs" />
@@ -205,7 +187,6 @@
     <Compile Include="Assets/_Course Library/Scripts/Conditions/OnVelocity.cs" />
     <Compile Include="Assets/TriLib/TriLibSamples/AssetViewer/Scripts/AssetViewer.cs" />
     <Compile Include="Assets/_Course Library/Scripts/Actions/DestroyObject.cs" />
-    <Compile Include="Assets/Scripts/PositionModel.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets/TriLib/TriLibCore/Plugins/TriLibCore.Textures.dll" />
@@ -282,7 +263,6 @@
     <None Include="Assets/TriLib/TriLibCore/Plugins/Dependencies/ICSharpCode.SharpZipLib.dll" />
     <None Include="Assets/TriLib/TriLibCore/Plugins/TriLibCore.dll" />
     <None Include="Assets/TriLib/TriLibCore/Resources/Shaders/Utility/ApplyTransparency.shader" />
-    <None Include="Assets/Brick Project Studio/Apartment Kit/Scenes/BPS Apartment Kit.txt" />
     <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile.shader" />
     <None Include="Assets/TriLib/TriLibCore/Resources/Shaders/Utility/FixNormalMap.shader" />
     <None Include="Assets/TriLib/TriLibSamples/Common/Resources/ShowAlbedo.shader" />
