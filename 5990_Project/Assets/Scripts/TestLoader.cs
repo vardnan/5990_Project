@@ -63,7 +63,7 @@ public class TestLoader : MonoBehaviour
         myLoadedGameObject.transform.GetChild(0).gameObject.transform.GetChild(0).gameObject.AddComponent<Rigidbody>();
         //myLoadedGameObject.GetComponent<Rigidbody>().collisionDetectionMode = CollisionDetectionMode.ContinuousDynamic;
         myLoadedGameObject.transform.GetChild(0).gameObject.transform.GetChild(0).gameObject.AddComponent(typeof(UnityEngine.XR.Interaction.Toolkit.XRGrabInteractable));
-        myLoadedGameObject.transform.GetChild(0).gameObject.transform.GetChild(0).gameObject.transform.position = new Vector3(0, 2, 0);
+        myLoadedGameObject.transform.GetChild(0).gameObject.transform.GetChild(0).gameObject.transform.position = new Vector3(0, 0.5f, 0);
 
     }
 }

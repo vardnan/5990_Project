@@ -1,4 +1,0 @@
-#Mon Feb 27 17:18:23 EST 2023
-base.0=/Users/vardnan/Documents/Development/5990_Project/5990_Project/Temp/gradleOut/launcher/build/intermediates/dex/release/out/classes.dex
-path.0=classes.dex
-renamed.0=classes.dex

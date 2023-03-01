@@ -113,7 +113,7 @@ MonoBehaviour:
   m_Name: WebGL
   m_EditorClassIdentifier: 
   features: []
-  m_renderMode: 1
+  m_renderMode: 0
   m_depthSubmissionMode: 0
 --- !u!114 &-3740938606267459518
 MonoBehaviour:
@@ -174,7 +174,7 @@ MonoBehaviour:
   - {fileID: -7614672602551904134}
   - {fileID: 3222274678595080628}
   - {fileID: 4814533506043364645}
-  m_renderMode: 1
+  m_renderMode: 0
   m_depthSubmissionMode: 0
 --- !u!114 &-1713519887454709329
 MonoBehaviour:
@@ -338,7 +338,7 @@ MonoBehaviour:
   - {fileID: -1534691851083478602}
   - {fileID: 4935297799499250894}
   - {fileID: 4416670014068140973}
-  m_renderMode: 1
+  m_renderMode: 0
   m_depthSubmissionMode: 0
 --- !u!114 &4814533506043364645
 MonoBehaviour:
