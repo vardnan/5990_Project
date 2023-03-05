@@ -24,7 +24,7 @@ public class SceneChange : MonoBehaviour
         DontDestroyOnLoad(userModel);
 
         // Setting the current Scene to be able to unload it later
-        //Scene currentScene = SceneManager.GetActiveScene();
+        //  Scene currentScene = SceneManager.GetActiveScene();
 
         // The Application loads the Scene in the background at the same time as the current Scene.
         AsyncOperation asyncLoad = SceneManager.LoadSceneAsync(sceneName, LoadSceneMode.Additive);

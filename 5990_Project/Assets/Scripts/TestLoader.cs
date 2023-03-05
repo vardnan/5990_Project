@@ -57,6 +57,36 @@ public class TestLoader : MonoBehaviour
         // You can make the GameObject visible again at this step if you prefer to.
         var myLoadedGameObject = assetLoaderContext.RootGameObject;
         myLoadedGameObject.SetActive(true);
+
+        MeshRenderer[] mrs = myLoadedGameObject.GetComponentsInChildren<MeshRenderer>();
+        foreach (MeshRenderer m in mrs)
+        {
+            GameObject theObject = m.gameObject;
+            MeshCollider mC = theObject.AddComponent<MeshCollider>();
+            mC.convex = true;
+            Rigidbody rB = theObject.AddComponent<Rigidbody>();
+            rB.collisionDetectionMode = CollisionDetectionMode.ContinuousSpeculative;
+            rB.useGravity = false;
+            rB.isKinematic = true;
+            theObject.AddComponent(typeof(UnityEngine.XR.Interaction.Toolkit.XRGrabInteractable));
+            theObject.transform.position = new Vector3(0, 0.5f, 0);
+            //get all the meshrenderer componenents
+
+
+
+
+            //do to dimensions...
+            //takes the boundary of the mesh renderer....
+            //m.bounds.center;
+            //m.bounds.size.x;
+            //m.bounds.size.y;
+            //m.bounds.size.z;
+
+        }
+
+        
+
+        /*
         myLoadedGameObject.transform.GetChild(0).gameObject.transform.GetChild(0).gameObject.AddComponent<MeshRenderer>();
         myLoadedGameObject.transform.GetChild(0).gameObject.transform.GetChild(0).gameObject.AddComponent<MeshCollider>();
         myLoadedGameObject.transform.GetChild(0).gameObject.transform.GetChild(0).gameObject.GetComponent<MeshCollider>().convex = true;
@@ -64,6 +94,8 @@ public class TestLoader : MonoBehaviour
         //myLoadedGameObject.GetComponent<Rigidbody>().collisionDetectionMode = CollisionDetectionMode.ContinuousDynamic;
         myLoadedGameObject.transform.GetChild(0).gameObject.transform.GetChild(0).gameObject.AddComponent(typeof(UnityEngine.XR.Interaction.Toolkit.XRGrabInteractable));
         myLoadedGameObject.transform.GetChild(0).gameObject.transform.GetChild(0).gameObject.transform.position = new Vector3(0, 0.5f, 0);
+        */
 
+        DontDestroyOnLoad(myLoadedGameObject);
     }
 }

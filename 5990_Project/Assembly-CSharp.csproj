@@ -91,6 +91,7 @@
     <Compile Include="Assets/TriLib/TriLibSamples/Common/Scripts/ShowSkeleton.cs" />
     <Compile Include="Assets/TriLib/TriLibSamples/AssetViewer/Scripts/PointCloudRenderer/PointCloudRenderer.cs" />
     <Compile Include="Assets/_Course Library/Scripts/Testing/DisplayFPS.cs" />
+    <Compile Include="Assets/Scripts/SceneChange.cs" />
     <Compile Include="Assets/TriLib/TriLibCore/Scripts/CustomContextData/ZipLoadCustomContextData.cs" />
     <Compile Include="Assets/_Course Library/Scripts/Actions/FadeCanvasOnOverlap.cs" />
     <Compile Include="Assets/_Course Library/Scripts/Actions/ToggleVisibility.cs" />
@@ -188,8 +189,6 @@
     <Compile Include="Assets/_Course Library/Scripts/Conditions/OnVelocity.cs" />
     <Compile Include="Assets/TriLib/TriLibSamples/AssetViewer/Scripts/AssetViewer.cs" />
     <Compile Include="Assets/_Course Library/Scripts/Actions/DestroyObject.cs" />
-    <Compile Include="Assets/Scripts/SceneChange.cs" />
-    <Compile Include="Assets/Scripts/MakePlaneTransparent.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets/TriLib/TriLibCore/Plugins/TriLibCore.Textures.dll" />
