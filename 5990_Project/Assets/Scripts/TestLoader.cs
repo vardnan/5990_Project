@@ -1,12 +1,19 @@
 using TriLibCore;
 using TriLibCore.General;
+using TMPro;
 using UnityEngine;
 using UnityEngine.XR.Interaction.Toolkit;
+using System;
 
 public class TestLoader : MonoBehaviour
 {
+
     // Lets the user load a new model by clicking a GUI button.....
     public string ModelURL = "https://drive.google.com/uc?export=download&id=1xbglMHX6La4i_lZ9EojLminQb0svTgkv";
+
+    //public String widthValue;
+    //public String heightValue;
+    //public String depthValue;
 
     /// <summary>
     /// Creates the AssetLoaderOptions instance, configures the Web Request, and downloads the Model.
@@ -21,6 +28,7 @@ public class TestLoader : MonoBehaviour
         var assetLoaderOptions = AssetLoader.CreateDefaultLoaderOptions();
         var webRequest = AssetDownloader.CreateWebRequest(ModelURL);
         AssetDownloader.LoadModelFromUri(webRequest, OnLoad, OnMaterialsLoad, OnProgress, OnError, null, assetLoaderOptions, null, "fbx");
+
     }
 
     // This event is called when the model loading progress changes.
@@ -61,30 +69,21 @@ public class TestLoader : MonoBehaviour
         MeshRenderer[] mrs = myLoadedGameObject.GetComponentsInChildren<MeshRenderer>();
         foreach (MeshRenderer m in mrs)
         {
+
             GameObject theObject = m.gameObject;
             MeshCollider mC = theObject.AddComponent<MeshCollider>();
-            mC.convex = true;
+            //mC.convex = true;
             Rigidbody rB = theObject.AddComponent<Rigidbody>();
             rB.collisionDetectionMode = CollisionDetectionMode.ContinuousSpeculative;
             rB.useGravity = false;
             rB.isKinematic = true;
             theObject.AddComponent(typeof(UnityEngine.XR.Interaction.Toolkit.XRGrabInteractable));
             theObject.transform.position = new Vector3(0, 0.5f, 0);
-            //get all the meshrenderer componenents
-
-
-
-
-            //do to dimensions...
-            //takes the boundary of the mesh renderer....
-            //m.bounds.center;
-            //m.bounds.size.x;
-            //m.bounds.size.y;
-            //m.bounds.size.z;
+            //widthValue = Math.Round((m.bounds.size.x * 100f), 2).ToString() + "cm";
+            //heightValue = Math.Round((m.bounds.size.y * 100f), 2).ToString() + "cm";
+            //depthValue = Math.Round((m.bounds.size.z * 100f), 2).ToString() + "cm";
 
         }
-
-        
 
         /*
         myLoadedGameObject.transform.GetChild(0).gameObject.transform.GetChild(0).gameObject.AddComponent<MeshRenderer>();

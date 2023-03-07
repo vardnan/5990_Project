@@ -9,11 +9,14 @@ public class PositionModel : MonoBehaviour
 {
     // Start is called before the first frame update
 
+    public Vector3 modelPosition;
+
     XRGrabInteractable grabInteractor;
 
     private void Start()
     {
-        GameObject.Find("1").transform.GetChild(0).gameObject.transform.GetChild(0).gameObject.transform.position = new Vector3(0.425f, 1, 0);
+        //GameObject.Find("1").transform.GetChild(0).gameObject.transform.GetChild(0).gameObject.transform.position = new Vector3(0.425f, 1, 0);
+        GameObject.Find("1").transform.GetChild(0).gameObject.transform.GetChild(0).gameObject.transform.position = modelPosition;
         StartCoroutine(UpdateXRManager());
     }
 

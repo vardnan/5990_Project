@@ -4,7 +4,9 @@
 TagManager:
   serializedVersion: 2
   tags:
-  - KitchenEvent
+  - WidthChange
+  - HeightChange
+  - DepthChange
   layers:
   - Default
   - TransparentFX
